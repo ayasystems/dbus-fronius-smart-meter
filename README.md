@@ -1,6 +1,8 @@
 # dbus-fronius-smart-meter
 Integrate Fronis Meter smart meter into [Victron Energies Venus OS](https://github.com/victronenergy/venus)
 
+![image](https://user-images.githubusercontent.com/7864168/179211755-434ad49f-0f82-4b31-8ab3-e293f7d33c3c.png)
+
 ![image](https://user-images.githubusercontent.com/7864168/179207965-218cf519-f7f6-41af-8c24-e4446c434010.png)
 
 
