@@ -1,6 +1,9 @@
 # dbus-fronius-smart-meter
 Integrate Fronis Meter smart meter into [Victron Energies Venus OS](https://github.com/victronenergy/venus)
 
+![image](https://user-images.githubusercontent.com/7864168/179207965-218cf519-f7f6-41af-8c24-e4446c434010.png)
+
+
 ## Purpose
 With the scripts in this repo it should be easy possible to install, uninstall, restart a service that connects the Fronis Meter to the VenusOS and GX devices from Victron.
 Idea is pasend on @RalfZim project linked below.
