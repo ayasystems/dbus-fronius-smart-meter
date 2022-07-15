@@ -153,7 +153,7 @@ class DbusFroniusMeterService:
        meter_consumption = meter_data['Body']['Data']['PowerReal_P_Sum']
        meter_voltage = meter_data['Body']['Data']['Voltage_AC_Phase_1']
        meter_model = meter_data['Body']['Data']['Details']['Model']
-       if meter_model == 'Smart Meter TS 100A-1':  # set values for single phase meter
+       if meter_model == 'Smart Meter TS 100A-1' or meter_model == 'Smart Meter 63A-1'  :  # set values for single phase meter
         meter_data['Body']['Data']['Voltage_AC_Phase_2'] = 0
         meter_data['Body']['Data']['Voltage_AC_Phase_3'] = 0
         meter_data['Body']['Data']['Current_AC_Phase_2'] = 0
