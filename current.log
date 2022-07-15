@@ -1,0 +1,2798 @@
+2022-07-15 09:26:01,980 root INFO Start
+2022-07-15 09:26:01,995 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:26:01,998 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 230, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 49, in __init__
+    self._dbusservice.add_path('/Serial', self._getShellySerial())
+AttributeError: 'DbusFroniusMeterService' object has no attribute '_getShellySerial'
+2022-07-15 09:26:30,545 root INFO Start
+2022-07-15 09:26:30,559 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:26:30,569 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:26:30,961 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 09:26:31,126 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 09:26:31,406 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 09:26:31,761 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 09:26:31,877 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 09:26:32,117 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 09:26:32,392 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 09:26:32,644 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 09:26:32,958 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 09:26:33,120 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 09:26:33,381 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:33,670 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:33,874 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:34,262 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 09:26:34,494 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 09:26:34,655 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 09:26:34,889 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 09:26:35,131 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 09:26:35,383 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:35,712 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:35,896 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:36,132 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:36,385 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 09:26:36,759 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 09:26:36,999 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 09:26:37,137 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:37,384 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:37,634 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:37,885 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 09:26:38,253 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:38,459 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:38,639 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:38,944 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 09:26:39,231 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 09:26:39,427 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 09:26:39,684 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 09:26:39,983 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 09:26:40,164 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 09:26:40,400 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 09:26:40,893 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 09:26:41,210 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 09:26:41,260 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 09:26:41,554 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 09:26:41,780 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 09:26:42,13 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 09:28:09,143 root INFO Start
+2022-07-15 09:28:09,157 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:28:09,163 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 230, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 61, in __init__
+    gobject.timeout_add(config['ONPREMISE']['intervalMs'], self._update) # pause 250ms before the next request
+NameError: name 'config' is not defined
+2022-07-15 09:28:35,412 root INFO Start
+2022-07-15 09:28:35,426 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:28:35,433 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 228, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 65, in __init__
+    gobject.timeout_add(config['ONPREMISE']['intervalMs'], self._update) # pause 250ms before the next request
+NameError: name 'config' is not defined
+2022-07-15 09:29:38,983 root INFO Start
+2022-07-15 09:29:39,1 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:29:39,9 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 63, in __init__
+    gobject.timeout_add(config['ONPREMISE']['intervalMs'], self._update) # pause 250ms before the next request
+  File "/usr/lib/python3.8/site-packages/gi/overrides/GLib.py", line 612, in timeout_add
+    return GLib.timeout_add(priority, interval, function, *user_data)
+TypeError: Must be number, not str
+2022-07-15 09:30:46,610 root INFO Start
+2022-07-15 09:30:46,636 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:30:46,645 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:30:47,536 root INFO Grid power: -2682 w Voltage: 234 v
+2022-07-15 09:30:48,296 root INFO Grid power: -2685 w Voltage: 234 v
+2022-07-15 09:30:49,317 root INFO Grid power: -2689 w Voltage: 234 v
+2022-07-15 09:30:49,914 root INFO Grid power: -2689 w Voltage: 234 v
+2022-07-15 09:30:50,758 root INFO Grid power: -2677 w Voltage: 234 v
+2022-07-15 09:30:59,535 root INFO Start
+2022-07-15 09:30:59,551 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:30:59,561 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:31:03,421 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:31:07,237 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:31:17,621 root INFO Start
+2022-07-15 09:31:17,639 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:31:17,649 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:31:18,542 root INFO Grid power: -2703 w Voltage: 234 v
+2022-07-15 09:31:19,312 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:20,96 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:20,911 root INFO Grid power: -2683 w Voltage: 233 v
+2022-07-15 09:31:21,742 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:31:22,522 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:31:23,427 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:31:24,218 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:31:25,13 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:25,911 root INFO Grid power: -2701 w Voltage: 234 v
+2022-07-15 09:31:26,509 root INFO Grid power: -2685 w Voltage: 233 v
+2022-07-15 09:31:27,312 root INFO Grid power: -2691 w Voltage: 234 v
+2022-07-15 09:31:28,110 root INFO Grid power: -2691 w Voltage: 234 v
+2022-07-15 09:31:28,914 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:31:29,752 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:31:30,515 root INFO Grid power: -2687 w Voltage: 234 v
+2022-07-15 09:31:31,368 root INFO Grid power: -2654 w Voltage: 234 v
+2022-07-15 09:31:32,164 root INFO Grid power: -2654 w Voltage: 234 v
+2022-07-15 09:31:32,927 root INFO Grid power: -2648 w Voltage: 234 v
+2022-07-15 09:31:33,739 root INFO Grid power: -2651 w Voltage: 234 v
+2022-07-15 09:31:34,618 root INFO Grid power: -2659 w Voltage: 234 v
+2022-07-15 09:31:35,321 root INFO Grid power: -2633 w Voltage: 234 v
+2022-07-15 09:31:36,124 root INFO Grid power: -2633 w Voltage: 234 v
+2022-07-15 09:31:37,28 root INFO Grid power: -2645 w Voltage: 234 v
+2022-07-15 09:31:37,740 root INFO Grid power: -2654 w Voltage: 234 v
+2022-07-15 09:31:38,534 root INFO Grid power: -2680 w Voltage: 234 v
+2022-07-15 09:31:39,329 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:31:40,131 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:31:40,950 root INFO Grid power: -2697 w Voltage: 234 v
+2022-07-15 09:31:41,820 root INFO Grid power: -2685 w Voltage: 234 v
+2022-07-15 09:31:42,552 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:31:43,402 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:31:44,141 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:44,940 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:45,827 root INFO Grid power: -2705 w Voltage: 234 v
+2022-07-15 09:31:46,562 root INFO Grid power: -2684 w Voltage: 234 v
+2022-07-15 09:31:47,415 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:31:48,152 root INFO Grid power: -2707 w Voltage: 234 v
+2022-07-15 09:31:48,951 root INFO Grid power: -2707 w Voltage: 234 v
+2022-07-15 09:31:49,848 root INFO Grid power: -2729 w Voltage: 234 v
+2022-07-15 09:31:50,560 root INFO Grid power: -2732 w Voltage: 234 v
+2022-07-15 09:31:51,437 root INFO Grid power: -2718 w Voltage: 234 v
+2022-07-15 09:31:52,367 root INFO Grid power: -2737 w Voltage: 234 v
+2022-07-15 09:31:52,948 root INFO Grid power: -2737 w Voltage: 234 v
+2022-07-15 09:31:53,887 root INFO Grid power: -2722 w Voltage: 234 v
+2022-07-15 09:31:54,567 root INFO Grid power: -2718 w Voltage: 234 v
+2022-07-15 09:31:55,412 root INFO Grid power: -2727 w Voltage: 234 v
+2022-07-15 09:31:56,252 root INFO Grid power: -2721 w Voltage: 234 v
+2022-07-15 09:31:56,968 root INFO Grid power: -2721 w Voltage: 234 v
+2022-07-15 09:31:57,764 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:31:58,722 root INFO Grid power: -2710 w Voltage: 233 v
+2022-07-15 09:31:59,359 root INFO Grid power: -2713 w Voltage: 234 v
+2022-07-15 09:32:00,168 root INFO Grid power: -2720 w Voltage: 234 v
+2022-07-15 09:32:01,4 root INFO Grid power: -2720 w Voltage: 234 v
+2022-07-15 09:32:01,765 root INFO Grid power: -2676 w Voltage: 234 v
+2022-07-15 09:32:02,683 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:32:03,365 root INFO Grid power: -2712 w Voltage: 234 v
+2022-07-15 09:32:04,169 root INFO Grid power: -2690 w Voltage: 233 v
+2022-07-15 09:32:04,964 root INFO Grid power: -2690 w Voltage: 233 v
+2022-07-15 09:32:05,895 root INFO Grid power: -2632 w Voltage: 234 v
+2022-07-15 09:32:06,569 root INFO Grid power: -2645 w Voltage: 234 v
+2022-07-15 09:32:07,445 root INFO Grid power: -2684 w Voltage: 234 v
+2022-07-15 09:32:08,171 root INFO Grid power: -2684 w Voltage: 234 v
+2022-07-15 09:32:08,994 root INFO Grid power: -2671 w Voltage: 234 v
+2022-07-15 09:32:09,803 root INFO Grid power: -2683 w Voltage: 234 v
+2022-07-15 09:32:10,602 root INFO Grid power: -2692 w Voltage: 234 v
+2022-07-15 09:32:11,446 root INFO Grid power: -2682 w Voltage: 234 v
+2022-07-15 09:32:12,177 root INFO Grid power: -2679 w Voltage: 234 v
+2022-07-15 09:32:13,4 root INFO Grid power: -2679 w Voltage: 234 v
+2022-07-15 09:32:13,791 root INFO Grid power: -2687 w Voltage: 234 v
+2022-07-15 09:32:14,632 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:32:15,519 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:32:16,194 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:16,993 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:17,650 root INFO --- Start: sign of life ---
+2022-07-15 09:32:17,651 root INFO Last _update() call: 1657877536.99547
+2022-07-15 09:32:17,655 root INFO Last '/Ac/Power': -2693.4
+2022-07-15 09:32:17,655 root INFO --- End: sign of life ---
+2022-07-15 09:32:17,851 root INFO Grid power: -2673 w Voltage: 234 v
+2022-07-15 09:32:18,610 root INFO Grid power: -2690 w Voltage: 234 v
+2022-07-15 09:32:19,481 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:32:20,240 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:32:21,50 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:32:21,869 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:32:22,602 root INFO Grid power: -2686 w Voltage: 234 v
+2022-07-15 09:32:23,399 root INFO Grid power: -2690 w Voltage: 234 v
+2022-07-15 09:32:24,334 root INFO Grid power: -2702 w Voltage: 234 v
+2022-07-15 09:32:25,78 root INFO Grid power: -2702 w Voltage: 234 v
+2022-07-15 09:32:25,851 root INFO Grid power: -2701 w Voltage: 234 v
+2022-07-15 09:32:26,884 root INFO Grid power: -2688 w Voltage: 234 v
+2022-07-15 09:32:27,422 root INFO Grid power: -2677 w Voltage: 234 v
+2022-07-15 09:32:28,249 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:32:29,42 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:32:29,808 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:30,618 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:32:31,412 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:32:32,231 root INFO Grid power: -2670 w Voltage: 234 v
+2022-07-15 09:32:33,14 root INFO Grid power: -2670 w Voltage: 234 v
+2022-07-15 09:32:33,815 root INFO Grid power: -2692 w Voltage: 234 v
+2022-07-15 09:32:34,619 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:32:35,418 root INFO Grid power: -2704 w Voltage: 234 v
+2022-07-15 09:32:36,275 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:37,151 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:37,821 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:32:38,625 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:32:39,501 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:40,350 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:41,183 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:32:41,858 root INFO Grid power: -2705 w Voltage: 234 v
+2022-07-15 09:32:42,643 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:32:43,462 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:32:44,240 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:32:45,37 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:32:45,912 root INFO Grid power: -2707 w Voltage: 234 v
+2022-07-15 09:32:46,637 root INFO Grid power: -2709 w Voltage: 234 v
+2022-07-15 09:32:47,461 root INFO Grid power: -2682 w Voltage: 234 v
+2022-07-15 09:32:48,247 root INFO Grid power: -2673 w Voltage: 234 v
+2022-07-15 09:32:49,38 root INFO Grid power: -2673 w Voltage: 234 v
+2022-07-15 09:32:49,934 root INFO Grid power: -2675 w Voltage: 234 v
+2022-07-15 09:32:50,748 root INFO Grid power: -2674 w Voltage: 234 v
+2022-07-15 09:32:51,476 root INFO Grid power: -2682 w Voltage: 234 v
+2022-07-15 09:32:52,344 root INFO Grid power: -2656 w Voltage: 234 v
+2022-07-15 09:32:53,72 root INFO Grid power: -2656 w Voltage: 234 v
+2022-07-15 09:32:53,844 root INFO Grid power: -2676 w Voltage: 234 v
+2022-07-15 09:32:54,754 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:55,455 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:56,267 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:57,51 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:32:57,851 root INFO Grid power: -2678 w Voltage: 234 v
+2022-07-15 09:32:58,737 root INFO Grid power: -2686 w Voltage: 234 v
+2022-07-15 09:32:59,455 root INFO Grid power: -2687 w Voltage: 234 v
+2022-07-15 09:33:00,260 root INFO Grid power: -2690 w Voltage: 234 v
+2022-07-15 09:33:01,318 root INFO Grid power: -2691 w Voltage: 234 v
+2022-07-15 09:33:01,854 root INFO Grid power: -2691 w Voltage: 234 v
+2022-07-15 09:33:02,757 root INFO Grid power: -2693 w Voltage: 234 v
+2022-07-15 09:33:03,459 root INFO Grid power: -2670 w Voltage: 234 v
+2022-07-15 09:33:04,261 root INFO Grid power: -2686 w Voltage: 234 v
+2022-07-15 09:33:05,61 root INFO Grid power: -2686 w Voltage: 234 v
+2022-07-15 09:33:05,919 root INFO Grid power: -2692 w Voltage: 234 v
+2022-07-15 09:33:06,667 root INFO Grid power: -2697 w Voltage: 234 v
+2022-07-15 09:33:07,528 root INFO Grid power: -2695 w Voltage: 234 v
+2022-07-15 09:33:08,266 root INFO Grid power: -2672 w Voltage: 234 v
+2022-07-15 09:33:09,83 root INFO Grid power: -2672 w Voltage: 234 v
+2022-07-15 09:33:09,974 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:33:10,690 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:33:11,492 root INFO Grid power: -2700 w Voltage: 234 v
+2022-07-15 09:33:12,303 root INFO Grid power: -2674 w Voltage: 234 v
+2022-07-15 09:33:13,73 root INFO Grid power: -2674 w Voltage: 234 v
+2022-07-15 09:33:13,953 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:33:14,718 root INFO Grid power: -2699 w Voltage: 234 v
+2022-07-15 09:33:15,521 root INFO Grid power: -2731 w Voltage: 234 v
+2022-07-15 09:33:16,281 root INFO Grid power: -2727 w Voltage: 234 v
+2022-07-15 09:33:17,80 root INFO Grid power: -2727 w Voltage: 234 v
+2022-07-15 09:33:17,651 root INFO --- Start: sign of life ---
+2022-07-15 09:33:17,652 root INFO Last _update() call: 1657877597.0815349
+2022-07-15 09:33:17,652 root INFO Last '/Ac/Power': -2727.1
+2022-07-15 09:33:17,653 root INFO --- End: sign of life ---
+2022-07-15 09:33:17,972 root INFO Grid power: -2728 w Voltage: 234 v
+2022-07-15 09:33:18,758 root INFO Grid power: -2694 w Voltage: 234 v
+2022-07-15 09:33:19,498 root INFO Grid power: -2701 w Voltage: 234 v
+2022-07-15 09:33:20,422 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:21,85 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:21,988 root INFO Grid power: -2710 w Voltage: 234 v
+2022-07-15 09:33:22,706 root INFO Grid power: -2713 w Voltage: 234 v
+2022-07-15 09:33:23,498 root INFO Grid power: -2689 w Voltage: 234 v
+2022-07-15 09:33:24,293 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:33:25,238 root INFO Grid power: -2696 w Voltage: 234 v
+2022-07-15 09:33:25,998 root INFO Grid power: -2706 w Voltage: 234 v
+2022-07-15 09:33:26,781 root INFO Grid power: -2708 w Voltage: 234 v
+2022-07-15 09:33:27,498 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:28,301 root INFO Grid power: -2715 w Voltage: 234 v
+2022-07-15 09:33:29,243 root INFO Grid power: -2715 w Voltage: 234 v
+2022-07-15 09:33:30,67 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:33:30,757 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:31,551 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:32,335 root INFO Grid power: -2707 w Voltage: 234 v
+2022-07-15 09:33:33,207 root INFO Grid power: -2707 w Voltage: 234 v
+2022-07-15 09:33:33,916 root INFO Grid power: -2710 w Voltage: 234 v
+2022-07-15 09:33:34,722 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:33:35,509 root INFO Grid power: -2710 w Voltage: 234 v
+2022-07-15 09:33:36,312 root INFO Grid power: -2714 w Voltage: 234 v
+2022-07-15 09:33:37,140 root INFO Grid power: -2714 w Voltage: 234 v
+2022-07-15 09:33:37,910 root INFO Grid power: -2716 w Voltage: 234 v
+2022-07-15 09:33:38,864 root INFO Grid power: -2698 w Voltage: 234 v
+2022-07-15 09:33:39,578 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:40,428 root INFO Grid power: -2712 w Voltage: 234 v
+2022-07-15 09:33:41,112 root INFO Grid power: -2712 w Voltage: 234 v
+2022-07-15 09:33:42,147 root INFO Grid power: -2718 w Voltage: 234 v
+2022-07-15 09:33:42,758 root INFO Grid power: -2721 w Voltage: 234 v
+2022-07-15 09:33:43,533 root INFO Grid power: -2716 w Voltage: 234 v
+2022-07-15 09:33:44,323 root INFO Grid power: -2710 w Voltage: 234 v
+2022-07-15 09:33:45,120 root INFO Grid power: -2710 w Voltage: 234 v
+2022-07-15 09:33:46,19 root INFO Grid power: -2716 w Voltage: 234 v
+2022-07-15 09:33:46,737 root INFO Grid power: -2724 w Voltage: 234 v
+2022-07-15 09:33:47,523 root INFO Grid power: -2724 w Voltage: 234 v
+2022-07-15 09:33:48,424 root INFO Grid power: -2720 w Voltage: 234 v
+2022-07-15 09:33:49,126 root INFO Grid power: -2720 w Voltage: 234 v
+2022-07-15 09:33:49,947 root INFO Grid power: -2709 w Voltage: 233 v
+2022-07-15 09:33:50,982 root INFO Grid power: -2724 w Voltage: 234 v
+2022-07-15 09:33:51,528 root INFO Grid power: -2728 w Voltage: 234 v
+2022-07-15 09:33:52,410 root INFO Grid power: -2726 w Voltage: 234 v
+2022-07-15 09:33:53,132 root INFO Grid power: -2726 w Voltage: 234 v
+2022-07-15 09:33:53,937 root INFO Grid power: -2728 w Voltage: 234 v
+2022-07-15 09:33:54,741 root INFO Grid power: -2711 w Voltage: 234 v
+2022-07-15 09:33:55,537 root INFO Grid power: -2727 w Voltage: 234 v
+2022-07-15 09:33:56,382 root INFO Grid power: -2729 w Voltage: 234 v
+2022-07-15 09:33:57,156 root INFO Grid power: -2729 w Voltage: 234 v
+2022-07-15 09:33:57,960 root INFO Grid power: -2735 w Voltage: 234 v
+2022-07-15 09:35:58,581 root INFO Start
+2022-07-15 09:35:58,599 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:35:58,610 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:35:59,484 root INFO Grid power: -2613 w Voltage: 233 v
+2022-07-15 09:36:00,260 root INFO Grid power: -2609 w Voltage: 233 v
+2022-07-15 09:36:01,57 root INFO Grid power: -2609 w Voltage: 233 v
+2022-07-15 09:36:01,881 root INFO Grid power: -2616 w Voltage: 233 v
+2022-07-15 09:36:02,736 root INFO Grid power: -2598 w Voltage: 233 v
+2022-07-15 09:36:03,467 root INFO Grid power: -2606 w Voltage: 233 v
+2022-07-15 09:36:04,268 root INFO Grid power: -2585 w Voltage: 233 v
+2022-07-15 09:36:05,150 root INFO Grid power: -2585 w Voltage: 233 v
+2022-07-15 09:36:05,870 root INFO Grid power: -2557 w Voltage: 233 v
+2022-07-15 09:36:06,677 root INFO Grid power: -2518 w Voltage: 233 v
+2022-07-15 09:37:15,618 root INFO Start
+2022-07-15 09:37:15,636 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:37:15,646 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:37:16,505 root INFO Grid power: -2499 w Voltage: 233 v
+2022-07-15 09:37:17,296 root INFO Grid power: -2502 w Voltage: 233 v
+2022-07-15 09:37:18,92 root INFO Grid power: -2502 w Voltage: 233 v
+2022-07-15 09:37:18,895 root INFO Grid power: -2503 w Voltage: 233 v
+2022-07-15 09:37:19,696 root INFO Grid power: -2488 w Voltage: 233 v
+2022-07-15 09:37:20,497 root INFO Grid power: -2496 w Voltage: 233 v
+2022-07-15 09:37:21,298 root INFO Grid power: -2505 w Voltage: 233 v
+2022-07-15 09:37:22,182 root INFO Grid power: -2505 w Voltage: 233 v
+2022-07-15 09:37:22,905 root INFO Grid power: -2499 w Voltage: 233 v
+2022-07-15 09:37:23,823 root INFO Grid power: -2492 w Voltage: 233 v
+2022-07-15 09:37:24,583 root INFO Grid power: -2467 w Voltage: 233 v
+2022-07-15 09:37:25,307 root INFO Grid power: -2491 w Voltage: 233 v
+2022-07-15 09:37:26,152 root INFO Grid power: -2491 w Voltage: 233 v
+2022-07-15 09:37:26,935 root INFO Grid power: -2470 w Voltage: 233 v
+2022-07-15 09:37:27,765 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:28,626 root INFO Grid power: -2491 w Voltage: 233 v
+2022-07-15 09:37:29,348 root INFO Grid power: -2487 w Voltage: 233 v
+2022-07-15 09:37:30,236 root INFO Grid power: -2487 w Voltage: 233 v
+2022-07-15 09:37:30,977 root INFO Grid power: -2496 w Voltage: 233 v
+2022-07-15 09:37:31,793 root INFO Grid power: -2488 w Voltage: 233 v
+2022-07-15 09:37:32,746 root INFO Grid power: -2495 w Voltage: 233 v
+2022-07-15 09:37:33,354 root INFO Grid power: -2470 w Voltage: 233 v
+2022-07-15 09:37:34,156 root INFO Grid power: -2470 w Voltage: 233 v
+2022-07-15 09:37:34,919 root INFO Grid power: -2480 w Voltage: 233 v
+2022-07-15 09:37:35,740 root INFO Grid power: -2496 w Voltage: 233 v
+2022-07-15 09:37:36,607 root INFO Grid power: -2491 w Voltage: 233 v
+2022-07-15 09:37:37,328 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:38,123 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:38,998 root INFO Grid power: -2493 w Voltage: 233 v
+2022-07-15 09:37:39,757 root INFO Grid power: -2479 w Voltage: 233 v
+2022-07-15 09:37:40,533 root INFO Grid power: -2493 w Voltage: 233 v
+2022-07-15 09:37:41,330 root INFO Grid power: -2492 w Voltage: 233 v
+2022-07-15 09:37:42,171 root INFO Grid power: -2492 w Voltage: 233 v
+2022-07-15 09:37:42,935 root INFO Grid power: -2497 w Voltage: 233 v
+2022-07-15 09:37:43,808 root INFO Grid power: -2501 w Voltage: 233 v
+2022-07-15 09:37:44,538 root INFO Grid power: -2497 w Voltage: 233 v
+2022-07-15 09:37:45,479 root INFO Grid power: -2490 w Voltage: 233 v
+2022-07-15 09:37:46,158 root INFO Grid power: -2490 w Voltage: 233 v
+2022-07-15 09:37:46,985 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:47,888 root INFO Grid power: -2504 w Voltage: 233 v
+2022-07-15 09:37:48,609 root INFO Grid power: -2505 w Voltage: 233 v
+2022-07-15 09:37:49,364 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:50,143 root INFO Grid power: -2498 w Voltage: 233 v
+2022-07-15 09:37:50,948 root INFO Grid power: -2494 w Voltage: 233 v
+2022-07-15 09:37:51,938 root INFO Grid power: -2504 w Voltage: 233 v
+2022-07-15 09:37:52,549 root INFO Grid power: -2509 w Voltage: 233 v
+2022-07-15 09:37:53,367 root INFO Grid power: -2511 w Voltage: 233 v
+2022-07-15 09:37:54,153 root INFO Grid power: -2497 w Voltage: 233 v
+2022-07-15 09:37:54,948 root INFO Grid power: -2497 w Voltage: 233 v
+2022-07-15 09:37:55,755 root INFO Grid power: -2507 w Voltage: 233 v
+2022-07-15 09:37:56,552 root INFO Grid power: -2510 w Voltage: 233 v
+2022-07-15 09:37:57,352 root INFO Grid power: -2510 w Voltage: 233 v
+2022-07-15 09:37:58,279 root INFO Grid power: -2510 w Voltage: 233 v
+2022-07-15 09:37:58,954 root INFO Grid power: -2510 w Voltage: 233 v
+2022-07-15 09:37:59,760 root INFO Grid power: -2503 w Voltage: 233 v
+2022-07-15 09:38:00,558 root INFO Grid power: -2493 w Voltage: 233 v
+2022-07-15 09:38:01,362 root INFO Grid power: -2501 w Voltage: 233 v
+2022-07-15 09:38:02,170 root INFO Grid power: -2506 w Voltage: 233 v
+2022-07-15 09:51:20,548 root INFO Start
+2022-07-15 09:51:20,566 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:51:20,576 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:51:21,436 root INFO Grid power: -1618 w Voltage: 232 v
+2022-07-15 09:51:22,368 root INFO Grid power: -1616 w Voltage: 232 v
+2022-07-15 09:51:23,27 root INFO Grid power: -1616 w Voltage: 232 v
+2022-07-15 09:51:23,827 root INFO Grid power: -1604 w Voltage: 232 v
+2022-07-15 09:51:24,658 root INFO Grid power: -1611 w Voltage: 232 v
+2022-07-15 09:51:25,434 root INFO Grid power: -1620 w Voltage: 232 v
+2022-07-15 09:51:26,369 root INFO Grid power: -1622 w Voltage: 232 v
+2022-07-15 09:51:27,98 root INFO Grid power: -1622 w Voltage: 232 v
+2022-07-15 09:51:27,875 root INFO Grid power: -1621 w Voltage: 232 v
+2022-07-15 09:51:28,745 root INFO Grid power: -1596 w Voltage: 232 v
+2022-07-15 09:51:29,448 root INFO Grid power: -1609 w Voltage: 232 v
+2022-07-15 09:51:30,259 root INFO Grid power: -1623 w Voltage: 232 v
+2022-07-15 09:51:31,182 root INFO Grid power: -1623 w Voltage: 232 v
+2022-07-15 09:51:31,842 root INFO Grid power: -1624 w Voltage: 232 v
+2022-07-15 09:51:32,705 root INFO Grid power: -1622 w Voltage: 232 v
+2022-07-15 09:51:33,442 root INFO Grid power: -1621 w Voltage: 232 v
+2022-07-15 09:51:34,253 root INFO Grid power: -1613 w Voltage: 232 v
+2022-07-15 09:51:35,106 root INFO Grid power: -1613 w Voltage: 232 v
+2022-07-15 09:51:35,850 root INFO Grid power: -1613 w Voltage: 232 v
+2022-07-15 09:59:16,919 root INFO Start
+2022-07-15 09:59:16,935 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 09:59:16,946 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 09:59:17,839 root INFO Grid power: -1178 w Voltage: 234 v
+2022-07-15 09:59:18,639 root INFO Grid power: -1184 w Voltage: 234 v
+2022-07-15 09:59:19,437 root INFO Grid power: -1180 w Voltage: 234 v
+2022-07-15 09:59:20,254 root INFO Grid power: -1173 w Voltage: 234 v
+2022-07-15 09:59:21,10 root INFO Grid power: -1173 w Voltage: 234 v
+2022-07-15 09:59:21,809 root INFO Grid power: -1177 w Voltage: 234 v
+2022-07-15 09:59:22,603 root INFO Grid power: -1178 w Voltage: 234 v
+2022-07-15 09:59:23,556 root INFO Grid power: -1178 w Voltage: 233 v
+2022-07-15 09:59:24,283 root INFO Grid power: -1173 w Voltage: 234 v
+2022-07-15 09:59:25,121 root INFO Grid power: -1173 w Voltage: 234 v
+2022-07-15 09:59:25,965 root INFO Grid power: -1171 w Voltage: 234 v
+2022-07-15 09:59:26,614 root INFO Grid power: -1176 w Voltage: 234 v
+2022-07-15 09:59:27,407 root INFO Grid power: -1178 w Voltage: 234 v
+2022-07-15 09:59:28,214 root INFO Grid power: -1174 w Voltage: 234 v
+2022-07-15 09:59:29,8 root INFO Grid power: -1174 w Voltage: 234 v
+2022-07-15 09:59:29,831 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 09:59:30,628 root INFO Grid power: -1168 w Voltage: 234 v
+2022-07-15 09:59:31,416 root INFO Grid power: -1172 w Voltage: 234 v
+2022-07-15 09:59:32,278 root INFO Grid power: -1175 w Voltage: 234 v
+2022-07-15 09:59:33,73 root INFO Grid power: -1175 w Voltage: 234 v
+2022-07-15 09:59:33,820 root INFO Grid power: -1170 w Voltage: 234 v
+2022-07-15 09:59:34,732 root INFO Grid power: -1174 w Voltage: 234 v
+2022-07-15 09:59:35,419 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 09:59:36,237 root INFO Grid power: -1165 w Voltage: 234 v
+2022-07-15 09:59:37,79 root INFO Grid power: -1165 w Voltage: 234 v
+2022-07-15 09:59:37,829 root INFO Grid power: -1175 w Voltage: 234 v
+2022-07-15 09:59:38,630 root INFO Grid power: -1161 w Voltage: 233 v
+2022-07-15 09:59:39,425 root INFO Grid power: -1139 w Voltage: 234 v
+2022-07-15 09:59:40,243 root INFO Grid power: -1125 w Voltage: 234 v
+2022-07-15 09:59:41,25 root INFO Grid power: -1125 w Voltage: 234 v
+2022-07-15 09:59:41,833 root INFO Grid power: -1134 w Voltage: 234 v
+2022-07-15 09:59:42,655 root INFO Grid power: -1148 w Voltage: 234 v
+2022-07-15 09:59:43,490 root INFO Grid power: -1154 w Voltage: 234 v
+2022-07-15 09:59:44,249 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 09:59:45,43 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 09:59:45,923 root INFO Grid power: -1144 w Voltage: 234 v
+2022-07-15 09:59:46,651 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 09:59:47,441 root INFO Grid power: -1157 w Voltage: 234 v
+2022-07-15 09:59:48,417 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 09:59:49,41 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 09:59:49,841 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 09:59:50,651 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 09:59:51,551 root INFO Grid power: -1150 w Voltage: 234 v
+2022-07-15 09:59:52,347 root INFO Grid power: -1137 w Voltage: 234 v
+2022-07-15 09:59:53,173 root INFO Grid power: -1137 w Voltage: 234 v
+2022-07-15 09:59:53,893 root INFO Grid power: -1158 w Voltage: 233 v
+2022-07-15 09:59:54,821 root INFO Grid power: -1159 w Voltage: 233 v
+2022-07-15 09:59:55,460 root INFO Grid power: -806 w Voltage: 233 v
+2022-07-15 09:59:56,260 root INFO Grid power: -1104 w Voltage: 234 v
+2022-07-15 09:59:57,169 root INFO Grid power: -1104 w Voltage: 234 v
+2022-07-15 09:59:57,860 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 09:59:58,664 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 09:59:59,456 root INFO Grid power: -1157 w Voltage: 233 v
+2022-07-15 10:00:00,261 root INFO Grid power: -1139 w Voltage: 234 v
+2022-07-15 10:00:01,156 root INFO Grid power: -1139 w Voltage: 234 v
+2022-07-15 10:00:01,861 root INFO Grid power: -1147 w Voltage: 233 v
+2022-07-15 10:00:02,667 root INFO Grid power: -1158 w Voltage: 233 v
+2022-07-15 10:00:03,511 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:04,267 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:05,336 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:05,910 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:06,670 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:07,631 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:08,271 root INFO Grid power: -1166 w Voltage: 234 v
+2022-07-15 10:00:09,212 root INFO Grid power: -1166 w Voltage: 234 v
+2022-07-15 10:00:09,891 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:00:10,672 root INFO Grid power: -1167 w Voltage: 234 v
+2022-07-15 10:00:11,488 root INFO Grid power: -1147 w Voltage: 234 v
+2022-07-15 10:00:12,276 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:00:13,117 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:00:13,887 root INFO Grid power: -1164 w Voltage: 234 v
+2022-07-15 10:00:14,681 root INFO Grid power: -1163 w Voltage: 234 v
+2022-07-15 10:00:15,595 root INFO Grid power: -1167 w Voltage: 234 v
+2022-07-15 10:00:16,357 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:16,947 root INFO --- Start: sign of life ---
+2022-07-15 10:00:16,948 root INFO Last _update() call: 1657879216.358582
+2022-07-15 10:00:16,948 root INFO Last '/Ac/Power': -1155.1
+2022-07-15 10:00:16,949 root INFO --- End: sign of life ---
+2022-07-15 10:00:17,96 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:17,887 root INFO Grid power: -1146 w Voltage: 234 v
+2022-07-15 10:00:18,692 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:00:19,530 root INFO Grid power: -1164 w Voltage: 234 v
+2022-07-15 10:00:20,312 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:21,89 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:21,948 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:22,702 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:00:23,494 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 10:00:24,294 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:25,153 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:25,984 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:00:26,736 root INFO Grid power: -1144 w Voltage: 234 v
+2022-07-15 10:00:27,511 root INFO Grid power: -1149 w Voltage: 234 v
+2022-07-15 10:00:28,381 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:00:29,211 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:00:29,902 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 10:00:30,850 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 10:00:31,519 root INFO Grid power: -1132 w Voltage: 233 v
+2022-07-15 10:00:32,309 root INFO Grid power: -1148 w Voltage: 234 v
+2022-07-15 10:00:33,111 root INFO Grid power: -1148 w Voltage: 234 v
+2022-07-15 10:00:33,931 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:34,758 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:35,565 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:00:36,335 root INFO Grid power: -1150 w Voltage: 234 v
+2022-07-15 10:00:37,181 root INFO Grid power: -1150 w Voltage: 234 v
+2022-07-15 10:00:37,918 root INFO Grid power: -1145 w Voltage: 234 v
+2022-07-15 10:00:38,731 root INFO Grid power: -1154 w Voltage: 234 v
+2022-07-15 10:00:39,598 root INFO Grid power: -1162 w Voltage: 234 v
+2022-07-15 10:00:40,323 root INFO Grid power: -1168 w Voltage: 234 v
+2022-07-15 10:00:41,223 root INFO Grid power: -1168 w Voltage: 234 v
+2022-07-15 10:00:42,42 root INFO Grid power: -1150 w Voltage: 234 v
+2022-07-15 10:00:42,743 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:00:43,625 root INFO Grid power: -1166 w Voltage: 234 v
+2022-07-15 10:00:44,331 root INFO Grid power: -1147 w Voltage: 233 v
+2022-07-15 10:00:45,132 root INFO Grid power: -1147 w Voltage: 233 v
+2022-07-15 10:00:45,934 root INFO Grid power: -1164 w Voltage: 234 v
+2022-07-15 10:00:46,747 root INFO Grid power: -1140 w Voltage: 234 v
+2022-07-15 10:00:47,539 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:48,355 root INFO Grid power: -1162 w Voltage: 234 v
+2022-07-15 10:00:49,136 root INFO Grid power: -1162 w Voltage: 234 v
+2022-07-15 10:00:49,939 root INFO Grid power: -1141 w Voltage: 234 v
+2022-07-15 10:00:50,930 root INFO Grid power: -1166 w Voltage: 234 v
+2022-07-15 10:00:51,552 root INFO Grid power: -1169 w Voltage: 233 v
+2022-07-15 10:00:52,367 root INFO Grid power: -1144 w Voltage: 233 v
+2022-07-15 10:00:53,142 root INFO Grid power: -1144 w Voltage: 233 v
+2022-07-15 10:00:53,945 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:54,818 root INFO Grid power: -1158 w Voltage: 234 v
+2022-07-15 10:00:55,552 root INFO Grid power: -1163 w Voltage: 234 v
+2022-07-15 10:00:56,352 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:00:57,231 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:57,946 root INFO Grid power: -1152 w Voltage: 234 v
+2022-07-15 10:00:58,760 root INFO Grid power: -1155 w Voltage: 234 v
+2022-07-15 10:00:59,558 root INFO Grid power: -1159 w Voltage: 234 v
+2022-07-15 10:01:00,369 root INFO Grid power: -1163 w Voltage: 234 v
+2022-07-15 10:01:01,355 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:01:01,960 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:01:02,777 root INFO Grid power: -1143 w Voltage: 234 v
+2022-07-15 10:01:03,689 root INFO Grid power: -1150 w Voltage: 233 v
+2022-07-15 10:01:04,372 root INFO Grid power: -1157 w Voltage: 234 v
+2022-07-15 10:01:05,428 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:01:05,976 root INFO Grid power: -1161 w Voltage: 234 v
+2022-07-15 10:01:06,771 root INFO Grid power: -1163 w Voltage: 234 v
+2022-07-15 10:01:07,565 root INFO Grid power: -1157 w Voltage: 234 v
+2022-07-15 10:01:08,366 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:01:09,264 root INFO Grid power: -1156 w Voltage: 234 v
+2022-07-15 10:01:09,974 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:01:10,820 root INFO Grid power: -1168 w Voltage: 234 v
+2022-07-15 10:01:11,629 root INFO Grid power: -1167 w Voltage: 234 v
+2022-07-15 10:01:12,408 root INFO Grid power: -1151 w Voltage: 234 v
+2022-07-15 10:01:13,175 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:01:13,972 root INFO Grid power: -1160 w Voltage: 234 v
+2022-07-15 10:01:14,776 root INFO Grid power: -1172 w Voltage: 234 v
+2022-07-15 10:01:15,581 root INFO Grid power: -1174 w Voltage: 234 v
+2022-07-15 10:01:16,377 root INFO Grid power: -1176 w Voltage: 234 v
+2022-07-15 10:01:16,948 root INFO --- Start: sign of life ---
+2022-07-15 10:01:16,949 root INFO Last _update() call: 1657879276.383969
+2022-07-15 10:01:16,950 root INFO Last '/Ac/Power': -1175.8
+2022-07-15 10:01:16,950 root INFO --- End: sign of life ---
+2022-07-15 10:01:17,258 root INFO Grid power: -1143 w Voltage: 234 v
+2022-07-15 10:01:18,20 root INFO Grid power: -1143 w Voltage: 234 v
+2022-07-15 10:01:18,809 root INFO Grid power: -1178 w Voltage: 234 v
+2022-07-15 10:01:19,613 root INFO Grid power: -1184 w Voltage: 234 v
+2022-07-15 10:01:20,405 root INFO Grid power: -1192 w Voltage: 234 v
+2022-07-15 10:01:21,188 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:01:21,983 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:01:22,787 root INFO Grid power: -1182 w Voltage: 234 v
+2022-07-15 10:01:23,592 root INFO Grid power: -1188 w Voltage: 234 v
+2022-07-15 10:01:24,391 root INFO Grid power: -1185 w Voltage: 234 v
+2022-07-15 10:01:25,220 root INFO Grid power: -1200 w Voltage: 234 v
+2022-07-15 10:01:25,992 root INFO Grid power: -1200 w Voltage: 234 v
+2022-07-15 10:01:26,903 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:01:27,594 root INFO Grid power: -1194 w Voltage: 233 v
+2022-07-15 10:01:28,451 root INFO Grid power: -1176 w Voltage: 233 v
+2022-07-15 10:01:29,429 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:01:30,34 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:01:30,887 root INFO Grid power: -1179 w Voltage: 234 v
+2022-07-15 10:01:31,639 root INFO Grid power: -1180 w Voltage: 234 v
+2022-07-15 10:01:32,430 root INFO Grid power: -1176 w Voltage: 234 v
+2022-07-15 10:01:33,255 root INFO Grid power: -1191 w Voltage: 234 v
+2022-07-15 10:01:34,2 root INFO Grid power: -1191 w Voltage: 234 v
+2022-07-15 10:01:34,911 root INFO Grid power: -1199 w Voltage: 234 v
+2022-07-15 10:01:35,645 root INFO Grid power: -1195 w Voltage: 234 v
+2022-07-15 10:01:36,412 root INFO Grid power: -1195 w Voltage: 234 v
+2022-07-15 10:01:37,319 root INFO Grid power: -1196 w Voltage: 234 v
+2022-07-15 10:01:38,13 root INFO Grid power: -1196 w Voltage: 234 v
+2022-07-15 10:01:38,835 root INFO Grid power: -1198 w Voltage: 234 v
+2022-07-15 10:01:39,646 root INFO Grid power: -1203 w Voltage: 234 v
+2022-07-15 10:01:40,434 root INFO Grid power: -1210 w Voltage: 234 v
+2022-07-15 10:01:41,339 root INFO Grid power: -1213 w Voltage: 234 v
+2022-07-15 10:01:42,76 root INFO Grid power: -1213 w Voltage: 234 v
+2022-07-15 10:01:42,823 root INFO Grid power: -1215 w Voltage: 234 v
+2022-07-15 10:01:43,714 root INFO Grid power: -1208 w Voltage: 234 v
+2022-07-15 10:01:44,438 root INFO Grid power: -1199 w Voltage: 234 v
+2022-07-15 10:01:45,328 root INFO Grid power: -1208 w Voltage: 234 v
+2022-07-15 10:01:46,130 root INFO Grid power: -1208 w Voltage: 234 v
+2022-07-15 10:01:46,838 root INFO Grid power: -1207 w Voltage: 234 v
+2022-07-15 10:01:47,636 root INFO Grid power: -1208 w Voltage: 234 v
+2022-07-15 10:01:48,475 root INFO Grid power: -1184 w Voltage: 234 v
+2022-07-15 10:01:49,261 root INFO Grid power: -1197 w Voltage: 234 v
+2022-07-15 10:01:50,33 root INFO Grid power: -1197 w Voltage: 234 v
+2022-07-15 10:01:51,45 root INFO Grid power: -1204 w Voltage: 234 v
+2022-07-15 10:01:51,659 root INFO Grid power: -1205 w Voltage: 234 v
+2022-07-15 10:01:52,585 root INFO Grid power: -1206 w Voltage: 234 v
+2022-07-15 10:01:54,491 root INFO Start
+2022-07-15 10:01:54,508 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:01:54,519 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:01:55,386 root INFO Grid power: -1201 w Voltage: 234 v
+2022-07-15 10:01:56,248 root INFO Grid power: -1203 w Voltage: 234 v
+2022-07-15 10:01:57,11 root INFO Grid power: -1203 w Voltage: 234 v
+2022-07-15 10:01:57,781 root INFO Grid power: -1203 w Voltage: 234 v
+2022-07-15 10:01:58,676 root INFO Grid power: -1182 w Voltage: 234 v
+2022-07-15 10:01:59,375 root INFO Grid power: -1195 w Voltage: 233 v
+2022-07-15 10:02:00,229 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 10:02:01,15 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 10:02:01,783 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:02:02,686 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:02:03,378 root INFO Grid power: -1171 w Voltage: 233 v
+2022-07-15 10:02:04,217 root INFO Grid power: -1188 w Voltage: 233 v
+2022-07-15 10:02:04,976 root INFO Grid power: -1188 w Voltage: 233 v
+2022-07-15 10:02:05,780 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:02:06,638 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 10:02:07,392 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:02:08,186 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:02:09,194 root INFO Grid power: -1180 w Voltage: 233 v
+2022-07-15 10:02:09,814 root INFO Grid power: -1184 w Voltage: 233 v
+2022-07-15 10:02:10,691 root INFO Grid power: -1192 w Voltage: 234 v
+2022-07-15 10:02:11,469 root INFO Grid power: -1171 w Voltage: 234 v
+2022-07-15 10:02:12,202 root INFO Grid power: -1164 w Voltage: 233 v
+2022-07-15 10:02:12,989 root INFO Grid power: -1164 w Voltage: 233 v
+2022-07-15 10:02:13,790 root INFO Grid power: -1169 w Voltage: 233 v
+2022-07-15 10:02:14,593 root INFO Grid power: -1155 w Voltage: 233 v
+2022-07-15 10:02:15,515 root INFO Grid power: -1154 w Voltage: 233 v
+2022-07-15 10:02:16,196 root INFO Grid power: -1181 w Voltage: 234 v
+2022-07-15 10:02:16,995 root INFO Grid power: -1181 w Voltage: 234 v
+2022-07-15 10:02:17,808 root INFO Grid power: -1176 w Voltage: 234 v
+2022-07-15 10:02:18,611 root INFO Grid power: -1167 w Voltage: 233 v
+2022-07-15 10:02:19,517 root INFO Grid power: -1153 w Voltage: 233 v
+2022-07-15 10:02:20,269 root INFO Grid power: -1171 w Voltage: 233 v
+2022-07-15 10:02:21,76 root INFO Grid power: -1171 w Voltage: 233 v
+2022-07-15 10:02:21,903 root INFO Grid power: -1182 w Voltage: 233 v
+2022-07-15 10:02:22,628 root INFO Grid power: -1177 w Voltage: 233 v
+2022-07-15 10:02:23,431 root INFO Grid power: -1136 w Voltage: 233 v
+2022-07-15 10:02:24,321 root INFO Grid power: -1148 w Voltage: 233 v
+2022-07-15 10:02:25,5 root INFO Grid power: -1148 w Voltage: 233 v
+2022-07-15 10:02:25,814 root INFO Grid power: -1175 w Voltage: 233 v
+2022-07-15 10:02:26,665 root INFO Grid power: -1171 w Voltage: 233 v
+2022-07-15 10:02:27,417 root INFO Grid power: -1179 w Voltage: 233 v
+2022-07-15 10:02:28,302 root INFO Grid power: -1179 w Voltage: 233 v
+2022-07-15 10:02:29,89 root INFO Grid power: -1179 w Voltage: 233 v
+2022-07-15 10:02:29,818 root INFO Grid power: -1166 w Voltage: 233 v
+2022-07-15 10:02:30,925 root INFO Grid power: -1180 w Voltage: 233 v
+2022-07-15 10:02:31,418 root INFO Grid power: -1193 w Voltage: 233 v
+2022-07-15 10:02:32,233 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:02:33,45 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:02:33,829 root INFO Grid power: -1206 w Voltage: 233 v
+2022-07-15 10:02:34,625 root INFO Grid power: -1186 w Voltage: 234 v
+2022-07-15 10:02:35,466 root INFO Grid power: -1193 w Voltage: 234 v
+2022-07-15 10:02:36,242 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:02:37,151 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:02:37,839 root INFO Grid power: -1182 w Voltage: 233 v
+2022-07-15 10:02:38,671 root INFO Grid power: -1183 w Voltage: 233 v
+2022-07-15 10:02:39,433 root INFO Grid power: -1172 w Voltage: 233 v
+2022-07-15 10:02:40,251 root INFO Grid power: -1188 w Voltage: 233 v
+2022-07-15 10:02:41,27 root INFO Grid power: -1188 w Voltage: 233 v
+2022-07-15 10:02:41,837 root INFO Grid power: -1190 w Voltage: 233 v
+2022-07-15 10:02:42,633 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 10:02:43,448 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:02:44,255 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:02:45,99 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:02:45,858 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:02:46,639 root INFO Grid power: -1208 w Voltage: 233 v
+2022-07-15 10:02:47,445 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:02:48,283 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:02:49,72 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:02:49,865 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 10:02:50,791 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 10:02:51,448 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:02:52,258 root INFO Grid power: -1221 w Voltage: 233 v
+2022-07-15 10:02:53,97 root INFO Grid power: -1221 w Voltage: 233 v
+2022-07-15 10:02:53,861 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:02:54,520 root INFO --- Start: sign of life ---
+2022-07-15 10:02:54,520 root INFO Last _update() call: 1657879373.8650048
+2022-07-15 10:02:54,521 root INFO Last '/Ac/Power': -1222.3
+2022-07-15 10:02:54,521 root INFO --- End: sign of life ---
+2022-07-15 10:02:54,697 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:02:55,526 root INFO Grid power: -1217 w Voltage: 233 v
+2022-07-15 10:02:56,257 root INFO Grid power: -1223 w Voltage: 233 v
+2022-07-15 10:02:57,119 root INFO Grid power: -1223 w Voltage: 233 v
+2022-07-15 10:02:57,861 root INFO Grid power: -1221 w Voltage: 233 v
+2022-07-15 10:02:58,687 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:02:59,547 root INFO Grid power: -1223 w Voltage: 233 v
+2022-07-15 10:03:00,269 root INFO Grid power: -1208 w Voltage: 233 v
+2022-07-15 10:03:01,116 root INFO Grid power: -1208 w Voltage: 233 v
+2022-07-15 10:03:01,904 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:03:02,692 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:03:03,466 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 10:03:04,309 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:03:05,68 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:03:05,921 root INFO Grid power: -1207 w Voltage: 233 v
+2022-07-15 10:03:06,695 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:07,475 root INFO Grid power: -1229 w Voltage: 233 v
+2022-07-15 10:03:08,383 root INFO Grid power: -1227 w Voltage: 233 v
+2022-07-15 10:03:09,74 root INFO Grid power: -1227 w Voltage: 233 v
+2022-07-15 10:03:09,875 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:03:10,677 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:03:11,483 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:12,347 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:13,79 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:13,880 root INFO Grid power: -1226 w Voltage: 233 v
+2022-07-15 10:03:14,836 root INFO Grid power: -1227 w Voltage: 233 v
+2022-07-15 10:03:15,505 root INFO Grid power: -1217 w Voltage: 233 v
+2022-07-15 10:03:16,384 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:17,121 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:17,889 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:18,873 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 10:03:19,492 root INFO Grid power: -1202 w Voltage: 233 v
+2022-07-15 10:03:20,297 root INFO Grid power: -1142 w Voltage: 233 v
+2022-07-15 10:03:21,257 root INFO Grid power: -1142 w Voltage: 233 v
+2022-07-15 10:03:21,912 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:03:22,840 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:23,497 root INFO Grid power: -1230 w Voltage: 233 v
+2022-07-15 10:03:24,315 root INFO Grid power: -1226 w Voltage: 233 v
+2022-07-15 10:03:25,172 root INFO Grid power: -1226 w Voltage: 233 v
+2022-07-15 10:03:25,906 root INFO Grid power: -1217 w Voltage: 233 v
+2022-07-15 10:03:26,702 root INFO Grid power: -1217 w Voltage: 233 v
+2022-07-15 10:03:27,518 root INFO Grid power: -1197 w Voltage: 233 v
+2022-07-15 10:03:28,322 root INFO Grid power: -1229 w Voltage: 233 v
+2022-07-15 10:03:29,161 root INFO Grid power: -1229 w Voltage: 233 v
+2022-07-15 10:03:29,905 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:30,708 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:03:31,573 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:03:32,321 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:03:33,176 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:03:33,974 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:03:34,720 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:35,526 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:03:36,327 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:03:37,117 root INFO Grid power: -1211 w Voltage: 233 v
+2022-07-15 10:03:37,927 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:03:38,797 root INFO Grid power: -1209 w Voltage: 233 v
+2022-07-15 10:03:39,521 root INFO Grid power: -1210 w Voltage: 233 v
+2022-07-15 10:03:40,407 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:03:41,122 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:03:41,953 root INFO Grid power: -1197 w Voltage: 233 v
+2022-07-15 10:03:43,23 root INFO Grid power: -1206 w Voltage: 233 v
+2022-07-15 10:03:43,543 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 10:03:44,434 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:03:45,266 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:03:45,987 root INFO Grid power: -1206 w Voltage: 233 v
+2022-07-15 10:03:46,844 root INFO Grid power: -1210 w Voltage: 234 v
+2022-07-15 10:03:47,533 root INFO Grid power: -1226 w Voltage: 233 v
+2022-07-15 10:03:48,350 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:49,328 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:03:49,953 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 10:03:50,784 root INFO Grid power: -1221 w Voltage: 234 v
+2022-07-15 10:03:51,557 root INFO Grid power: -1201 w Voltage: 233 v
+2022-07-15 10:03:52,348 root INFO Grid power: -1209 w Voltage: 233 v
+2022-07-15 10:03:53,224 root INFO Grid power: -1209 w Voltage: 233 v
+2022-07-15 10:03:54,17 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 10:03:54,520 root INFO --- Start: sign of life ---
+2022-07-15 10:03:54,521 root INFO Last _update() call: 1657879434.0186908
+2022-07-15 10:03:54,521 root INFO Last '/Ac/Power': -1213.6
+2022-07-15 10:03:54,522 root INFO --- End: sign of life ---
+2022-07-15 10:03:54,759 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:03:55,544 root INFO Grid power: -1194 w Voltage: 233 v
+2022-07-15 10:03:56,353 root INFO Grid power: -1153 w Voltage: 233 v
+2022-07-15 10:03:57,150 root INFO Grid power: -1153 w Voltage: 233 v
+2022-07-15 10:03:57,954 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:03:58,767 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 10:03:59,556 root INFO Grid power: -1220 w Voltage: 233 v
+2022-07-15 10:04:00,375 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:04:01,154 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:04:01,962 root INFO Grid power: -1208 w Voltage: 233 v
+2022-07-15 10:04:02,773 root INFO Grid power: -1209 w Voltage: 232 v
+2022-07-15 10:04:03,559 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:04:04,365 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:05,172 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:05,959 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:06,763 root INFO Grid power: -1210 w Voltage: 233 v
+2022-07-15 10:04:07,576 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:08,370 root INFO Grid power: -1228 w Voltage: 233 v
+2022-07-15 10:04:09,256 root INFO Grid power: -1228 w Voltage: 233 v
+2022-07-15 10:04:09,970 root INFO Grid power: -1227 w Voltage: 233 v
+2022-07-15 10:04:10,775 root INFO Grid power: -1223 w Voltage: 233 v
+2022-07-15 10:04:11,571 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:04:12,371 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:04:13,288 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 10:04:14,9 root INFO Grid power: -1215 w Voltage: 233 v
+2022-07-15 10:04:14,778 root INFO Grid power: -1172 w Voltage: 233 v
+2022-07-15 10:04:15,688 root INFO Grid power: -1196 w Voltage: 233 v
+2022-07-15 10:04:16,378 root INFO Grid power: -1159 w Voltage: 233 v
+2022-07-15 10:04:17,177 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 10:04:17,980 root INFO Grid power: -1205 w Voltage: 233 v
+2022-07-15 10:04:18,780 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:04:19,684 root INFO Grid power: -1223 w Voltage: 233 v
+2022-07-15 10:04:20,382 root INFO Grid power: -1227 w Voltage: 233 v
+2022-07-15 10:04:21,345 root INFO Grid power: -1235 w Voltage: 233 v
+2022-07-15 10:04:22,318 root INFO Grid power: -1235 w Voltage: 233 v
+2022-07-15 10:04:22,918 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:04:23,839 root INFO Grid power: -1228 w Voltage: 233 v
+2022-07-15 10:04:24,400 root INFO Grid power: -1236 w Voltage: 233 v
+2022-07-15 10:04:25,313 root INFO Grid power: -1240 w Voltage: 233 v
+2022-07-15 10:04:25,988 root INFO Grid power: -1240 w Voltage: 233 v
+2022-07-15 10:04:26,821 root INFO Grid power: -1240 w Voltage: 233 v
+2022-07-15 10:04:27,595 root INFO Grid power: -1231 w Voltage: 233 v
+2022-07-15 10:04:28,477 root INFO Grid power: -1245 w Voltage: 233 v
+2022-07-15 10:04:29,378 root INFO Grid power: -1252 w Voltage: 233 v
+2022-07-15 10:04:30,82 root INFO Grid power: -1252 w Voltage: 233 v
+2022-07-15 10:04:30,863 root INFO Grid power: -1253 w Voltage: 233 v
+2022-07-15 10:04:31,641 root INFO Grid power: -1250 w Voltage: 233 v
+2022-07-15 10:04:32,445 root INFO Grid power: -1233 w Voltage: 233 v
+2022-07-15 10:04:33,204 root INFO Grid power: -1240 w Voltage: 233 v
+2022-07-15 10:04:34,80 root INFO Grid power: -1240 w Voltage: 233 v
+2022-07-15 10:04:34,810 root INFO Grid power: -1250 w Voltage: 233 v
+2022-07-15 10:04:35,606 root INFO Grid power: -1250 w Voltage: 233 v
+2022-07-15 10:04:36,406 root INFO Grid power: -1236 w Voltage: 232 v
+2022-07-15 10:04:37,208 root INFO Grid power: -1235 w Voltage: 232 v
+2022-07-15 10:04:38,7 root INFO Grid power: -1235 w Voltage: 232 v
+2022-07-15 10:04:38,847 root INFO Grid power: -1247 w Voltage: 233 v
+2022-07-15 10:04:39,633 root INFO Grid power: -1246 w Voltage: 233 v
+2022-07-15 10:04:40,541 root INFO Grid power: -1230 w Voltage: 233 v
+2022-07-15 10:04:41,218 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:42,38 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:04:43,481 root INFO Grid power: -1199 w Voltage: 233 v
+2022-07-15 10:04:43,687 root INFO Grid power: -1233 w Voltage: 232 v
+2022-07-15 10:04:44,418 root INFO Grid power: -1239 w Voltage: 232 v
+2022-07-15 10:04:45,234 root INFO Grid power: -1250 w Voltage: 233 v
+2022-07-15 10:04:46,18 root INFO Grid power: -1250 w Voltage: 233 v
+2022-07-15 10:04:46,925 root INFO Grid power: -1253 w Voltage: 233 v
+2022-07-15 10:04:47,682 root INFO Grid power: -1241 w Voltage: 233 v
+2022-07-15 10:04:48,427 root INFO Grid power: -1226 w Voltage: 233 v
+2022-07-15 10:04:49,316 root INFO Grid power: -1232 w Voltage: 233 v
+2022-07-15 10:04:50,32 root INFO Grid power: -1232 w Voltage: 233 v
+2022-07-15 10:04:50,830 root INFO Grid power: -1246 w Voltage: 232 v
+2022-07-15 10:04:51,785 root INFO Grid power: -1248 w Voltage: 232 v
+2022-07-15 10:04:52,435 root INFO Grid power: -1248 w Voltage: 233 v
+2022-07-15 10:04:53,281 root INFO Grid power: -1231 w Voltage: 233 v
+2022-07-15 10:04:54,35 root INFO Grid power: -1231 w Voltage: 233 v
+2022-07-15 10:04:54,521 root INFO --- Start: sign of life ---
+2022-07-15 10:04:54,523 root INFO Last _update() call: 1657879494.0363972
+2022-07-15 10:04:54,525 root INFO Last '/Ac/Power': -1231.1
+2022-07-15 10:04:54,526 root INFO --- End: sign of life ---
+2022-07-15 10:04:54,848 root INFO Grid power: -1232 w Voltage: 233 v
+2022-07-15 10:04:55,646 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 10:04:56,444 root INFO Grid power: -1197 w Voltage: 232 v
+2022-07-15 10:04:57,260 root INFO Grid power: -1208 w Voltage: 232 v
+2022-07-15 10:04:58,121 root INFO Grid power: -1208 w Voltage: 232 v
+2022-07-15 10:04:58,841 root INFO Grid power: -1227 w Voltage: 232 v
+2022-07-15 10:04:59,642 root INFO Grid power: -1229 w Voltage: 233 v
+2022-07-15 10:05:00,548 root INFO Grid power: -1229 w Voltage: 233 v
+2022-07-15 10:05:01,344 root INFO Grid power: -1237 w Voltage: 233 v
+2022-07-15 10:05:02,43 root INFO Grid power: -1237 w Voltage: 233 v
+2022-07-15 10:05:02,854 root INFO Grid power: -1216 w Voltage: 232 v
+2022-07-15 10:05:03,649 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:05:04,575 root INFO Grid power: -1229 w Voltage: 232 v
+2022-07-15 10:05:05,287 root INFO Grid power: -1233 w Voltage: 233 v
+2022-07-15 10:05:06,49 root INFO Grid power: -1233 w Voltage: 233 v
+2022-07-15 10:05:07,24 root INFO Grid power: -1239 w Voltage: 233 v
+2022-07-15 10:05:07,764 root INFO Grid power: -1236 w Voltage: 232 v
+2022-07-15 10:05:08,467 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:05:09,371 root INFO Grid power: -1219 w Voltage: 233 v
+2022-07-15 10:05:10,127 root INFO Grid power: -1224 w Voltage: 233 v
+2022-07-15 10:05:11,35 root INFO Grid power: -1233 w Voltage: 233 v
+2022-07-15 10:05:11,662 root INFO Grid power: -1235 w Voltage: 232 v
+2022-07-15 10:05:12,500 root INFO Grid power: -1235 w Voltage: 232 v
+2022-07-15 10:05:13,359 root INFO Grid power: -1212 w Voltage: 233 v
+2022-07-15 10:05:14,80 root INFO Grid power: -1212 w Voltage: 233 v
+2022-07-15 10:05:14,861 root INFO Grid power: -1222 w Voltage: 233 v
+2022-07-15 10:05:15,667 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 10:05:16,468 root INFO Grid power: -1225 w Voltage: 233 v
+2022-07-15 10:05:17,343 root INFO Grid power: -1226 w Voltage: 232 v
+2022-07-15 10:05:18,106 root INFO Grid power: -1226 w Voltage: 232 v
+2022-07-15 10:05:18,928 root INFO Grid power: -1208 w Voltage: 232 v
+2022-07-15 10:05:19,669 root INFO Grid power: -1216 w Voltage: 232 v
+2022-07-15 10:05:20,471 root INFO Grid power: -1222 w Voltage: 232 v
+2022-07-15 10:05:21,319 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 10:05:22,76 root INFO Grid power: -1214 w Voltage: 233 v
+2022-07-15 10:05:22,881 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:05:23,842 root INFO Grid power: -1201 w Voltage: 233 v
+2022-07-15 10:05:24,477 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:05:25,280 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:05:26,202 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:05:26,971 root INFO Grid power: -1209 w Voltage: 233 v
+2022-07-15 10:05:27,859 root INFO Grid power: -1198 w Voltage: 233 v
+2022-07-15 10:05:28,501 root INFO Grid power: -1181 w Voltage: 233 v
+2022-07-15 10:05:29,292 root INFO Grid power: -1195 w Voltage: 233 v
+2022-07-15 10:05:30,207 root INFO Grid power: -1195 w Voltage: 233 v
+2022-07-15 10:05:30,914 root INFO Grid power: -1206 w Voltage: 233 v
+2022-07-15 10:05:31,810 root INFO Grid power: -1201 w Voltage: 233 v
+2022-07-15 10:05:32,521 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:05:33,358 root INFO Grid power: -1185 w Voltage: 233 v
+2022-07-15 10:05:34,92 root INFO Grid power: -1185 w Voltage: 233 v
+2022-07-15 10:05:34,898 root INFO Grid power: -1194 w Voltage: 233 v
+2022-07-15 10:05:35,703 root INFO Grid power: -1200 w Voltage: 233 v
+2022-07-15 10:05:36,498 root INFO Grid power: -1216 w Voltage: 233 v
+2022-07-15 10:05:37,336 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:05:38,292 root INFO Grid power: -1218 w Voltage: 233 v
+2022-07-15 10:05:38,983 root INFO Grid power: -1213 w Voltage: 233 v
+2022-07-15 10:05:39,770 root INFO Grid power: -1206 w Voltage: 233 v
+2022-07-15 10:05:40,561 root INFO Grid power: -1177 w Voltage: 233 v
+2022-07-15 10:05:41,326 root INFO Grid power: -1180 w Voltage: 233 v
+2022-07-15 10:05:42,134 root INFO Grid power: -1180 w Voltage: 233 v
+2022-07-15 10:05:43,261 root INFO Grid power: -1184 w Voltage: 233 v
+2022-07-15 10:05:43,721 root INFO Grid power: -1204 w Voltage: 233 v
+2022-07-15 10:05:44,579 root INFO Grid power: -1201 w Voltage: 233 v
+2022-07-15 10:05:45,316 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:05:46,111 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:05:47,20 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:05:47,717 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:05:48,550 root INFO Grid power: -1264 w Voltage: 233 v
+2022-07-15 10:05:49,319 root INFO Grid power: -1267 w Voltage: 233 v
+2022-07-15 10:05:50,116 root INFO Grid power: -1267 w Voltage: 233 v
+2022-07-15 10:05:51,83 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:05:51,724 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:05:52,565 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:05:53,330 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:05:54,121 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:05:54,521 root INFO --- Start: sign of life ---
+2022-07-15 10:05:54,522 root INFO Last _update() call: 1657879554.1229901
+2022-07-15 10:05:54,523 root INFO Last '/Ac/Power': -1277.8
+2022-07-15 10:05:54,523 root INFO --- End: sign of life ---
+2022-07-15 10:05:55,55 root INFO Grid power: -1276 w Voltage: 233 v
+2022-07-15 10:05:55,738 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:05:56,542 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:05:57,333 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:05:58,130 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:05:59,52 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:05:59,760 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:06:00,549 root INFO Grid power: -1297 w Voltage: 233 v
+2022-07-15 10:06:01,341 root INFO Grid power: -1301 w Voltage: 233 v
+2022-07-15 10:06:02,134 root INFO Grid power: -1301 w Voltage: 233 v
+2022-07-15 10:06:02,958 root INFO Grid power: -1302 w Voltage: 233 v
+2022-07-15 10:06:03,754 root INFO Grid power: -1299 w Voltage: 233 v
+2022-07-15 10:06:04,539 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:06:05,340 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:06:06,141 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:06:06,943 root INFO Grid power: -1298 w Voltage: 233 v
+2022-07-15 10:06:07,827 root INFO Grid power: -1302 w Voltage: 233 v
+2022-07-15 10:06:08,549 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:06:09,450 root INFO Grid power: -1290 w Voltage: 233 v
+2022-07-15 10:06:10,312 root INFO Grid power: -1290 w Voltage: 233 v
+2022-07-15 10:06:11,97 root INFO Grid power: -1293 w Voltage: 233 v
+2022-07-15 10:06:11,820 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:06:12,553 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:06:13,382 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:06:14,168 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:06:14,979 root INFO Grid power: -1279 w Voltage: 233 v
+2022-07-15 10:06:15,766 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:06:16,579 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:06:17,358 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:06:18,166 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:06:19,39 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:06:19,772 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:06:20,666 root INFO Grid power: -1293 w Voltage: 233 v
+2022-07-15 10:06:21,371 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:06:22,194 root INFO Grid power: -1309 w Voltage: 233 v
+2022-07-15 10:06:22,963 root INFO Grid power: -1309 w Voltage: 233 v
+2022-07-15 10:06:23,796 root INFO Grid power: -1305 w Voltage: 233 v
+2022-07-15 10:06:24,576 root INFO Grid power: -1306 w Voltage: 232 v
+2022-07-15 10:06:25,382 root INFO Grid power: -1302 w Voltage: 232 v
+2022-07-15 10:06:26,177 root INFO Grid power: -1304 w Voltage: 233 v
+2022-07-15 10:06:27,177 root INFO Grid power: -1304 w Voltage: 233 v
+2022-07-15 10:06:27,854 root INFO Grid power: -1318 w Voltage: 233 v
+2022-07-15 10:06:28,577 root INFO Grid power: -1310 w Voltage: 232 v
+2022-07-15 10:06:29,394 root INFO Grid power: -1307 w Voltage: 232 v
+2022-07-15 10:06:30,187 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:06:31,34 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:06:31,785 root INFO Grid power: -1304 w Voltage: 233 v
+2022-07-15 10:06:32,587 root INFO Grid power: -1311 w Voltage: 233 v
+2022-07-15 10:06:33,459 root INFO Grid power: -1313 w Voltage: 232 v
+2022-07-15 10:06:34,186 root INFO Grid power: -1315 w Voltage: 232 v
+2022-07-15 10:06:34,981 root INFO Grid power: -1315 w Voltage: 232 v
+2022-07-15 10:06:35,880 root INFO Grid power: -1302 w Voltage: 233 v
+2022-07-15 10:06:36,610 root INFO Grid power: -1306 w Voltage: 233 v
+2022-07-15 10:06:37,391 root INFO Grid power: -1300 w Voltage: 232 v
+2022-07-15 10:06:38,207 root INFO Grid power: -1306 w Voltage: 232 v
+2022-07-15 10:06:39,17 root INFO Grid power: -1306 w Voltage: 232 v
+2022-07-15 10:06:39,827 root INFO Grid power: -1304 w Voltage: 233 v
+2022-07-15 10:06:40,612 root INFO Grid power: -1297 w Voltage: 233 v
+2022-07-15 10:06:41,391 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:06:42,200 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:06:42,994 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:06:43,827 root INFO Grid power: -1273 w Voltage: 233 v
+2022-07-15 10:06:44,600 root INFO Grid power: -1276 w Voltage: 233 v
+2022-07-15 10:06:45,473 root INFO Grid power: -1272 w Voltage: 233 v
+2022-07-15 10:06:46,386 root INFO Grid power: -1260 w Voltage: 233 v
+2022-07-15 10:06:47,4 root INFO Grid power: -1260 w Voltage: 233 v
+2022-07-15 10:06:47,885 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:06:48,711 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:06:49,488 root INFO Grid power: -1274 w Voltage: 233 v
+2022-07-15 10:06:50,267 root INFO Grid power: -1266 w Voltage: 233 v
+2022-07-15 10:06:51,159 root INFO Grid power: -1266 w Voltage: 233 v
+2022-07-15 10:06:51,848 root INFO Grid power: -1279 w Voltage: 233 v
+2022-07-15 10:06:52,613 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:06:53,455 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:06:54,218 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:06:54,522 root INFO --- Start: sign of life ---
+2022-07-15 10:06:54,523 root INFO Last _update() call: 1657879614.2221992
+2022-07-15 10:06:54,524 root INFO Last '/Ac/Power': -1282.3
+2022-07-15 10:06:54,525 root INFO --- End: sign of life ---
+2022-07-15 10:06:55,193 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:06:55,817 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:06:56,661 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:06:57,480 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:06:58,219 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:06:59,22 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:06:59,900 root INFO Grid power: -1274 w Voltage: 233 v
+2022-07-15 10:07:00,631 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:07:01,433 root INFO Grid power: -1272 w Voltage: 233 v
+2022-07-15 10:07:02,237 root INFO Grid power: -1261 w Voltage: 233 v
+2022-07-15 10:07:03,27 root INFO Grid power: -1261 w Voltage: 233 v
+2022-07-15 10:07:03,911 root INFO Grid power: -1263 w Voltage: 233 v
+2022-07-15 10:07:04,632 root INFO Grid power: -1256 w Voltage: 233 v
+2022-07-15 10:07:05,455 root INFO Grid power: -1262 w Voltage: 233 v
+2022-07-15 10:07:06,265 root INFO Grid power: -1261 w Voltage: 233 v
+2022-07-15 10:07:07,57 root INFO Grid power: -1261 w Voltage: 233 v
+2022-07-15 10:07:07,841 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:07:08,646 root INFO Grid power: -1276 w Voltage: 233 v
+2022-07-15 10:07:09,436 root INFO Grid power: -1274 w Voltage: 233 v
+2022-07-15 10:07:10,306 root INFO Grid power: -1274 w Voltage: 233 v
+2022-07-15 10:07:11,79 root INFO Grid power: -1274 w Voltage: 233 v
+2022-07-15 10:07:11,861 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:07:12,782 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:07:13,445 root INFO Grid power: -1275 w Voltage: 233 v
+2022-07-15 10:07:14,264 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:07:15,61 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:07:15,852 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:07:16,705 root INFO Grid power: -1257 w Voltage: 233 v
+2022-07-15 10:07:17,450 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:07:18,273 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:07:19,180 root INFO Grid power: -1278 w Voltage: 233 v
+2022-07-15 10:07:19,859 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:07:20,653 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:07:21,491 root INFO Grid power: -1272 w Voltage: 233 v
+2022-07-15 10:07:22,266 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:07:23,117 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:07:23,864 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:07:24,660 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:07:25,490 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:07:26,290 root INFO Grid power: -1272 w Voltage: 233 v
+2022-07-15 10:07:27,95 root INFO Grid power: -1272 w Voltage: 233 v
+2022-07-15 10:07:27,940 root INFO Grid power: -1252 w Voltage: 233 v
+2022-07-15 10:07:28,760 root INFO Grid power: -1287 w Voltage: 233 v
+2022-07-15 10:07:29,467 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:07:30,413 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:07:31,70 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:07:31,975 root INFO Grid power: -1269 w Voltage: 233 v
+2022-07-15 10:07:32,783 root INFO Grid power: -1273 w Voltage: 233 v
+2022-07-15 10:07:33,477 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:07:34,361 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:07:35,135 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:07:35,892 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:07:36,884 root INFO Grid power: -1265 w Voltage: 233 v
+2022-07-15 10:07:37,481 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:07:38,411 root INFO Grid power: -1265 w Voltage: 233 v
+2022-07-15 10:07:39,81 root INFO Grid power: -1265 w Voltage: 233 v
+2022-07-15 10:07:39,887 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:07:40,684 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:07:41,484 root INFO Grid power: -1275 w Voltage: 233 v
+2022-07-15 10:07:42,378 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:07:43,91 root INFO Grid power: -1282 w Voltage: 233 v
+2022-07-15 10:07:43,891 root INFO Grid power: -1291 w Voltage: 233 v
+2022-07-15 10:07:44,781 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:07:45,536 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:07:46,322 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:07:47,97 root INFO Grid power: -1294 w Voltage: 233 v
+2022-07-15 10:07:47,910 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:07:48,917 root INFO Grid power: -1283 w Voltage: 233 v
+2022-07-15 10:07:49,500 root INFO Grid power: -1297 w Voltage: 233 v
+2022-07-15 10:07:50,299 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:07:51,119 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:07:51,907 root INFO Grid power: -1299 w Voltage: 233 v
+2022-07-15 10:07:52,714 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:07:53,505 root INFO Grid power: -1299 w Voltage: 233 v
+2022-07-15 10:07:54,316 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:07:54,522 root INFO --- Start: sign of life ---
+2022-07-15 10:07:54,525 root INFO Last _update() call: 1657879674.320363
+2022-07-15 10:07:54,526 root INFO Last '/Ac/Power': -1299.9
+2022-07-15 10:07:54,526 root INFO --- End: sign of life ---
+2022-07-15 10:07:55,108 root INFO Grid power: -1300 w Voltage: 233 v
+2022-07-15 10:07:55,912 root INFO Grid power: -1301 w Voltage: 233 v
+2022-07-15 10:07:56,894 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:07:57,598 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:07:58,385 root INFO Grid power: -1291 w Voltage: 233 v
+2022-07-15 10:07:59,140 root INFO Grid power: -1291 w Voltage: 233 v
+2022-07-15 10:08:00,1 root INFO Grid power: -1298 w Voltage: 233 v
+2022-07-15 10:08:00,753 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:08:01,554 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:08:02,337 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:03,128 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:03,994 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:04,744 root INFO Grid power: -1295 w Voltage: 233 v
+2022-07-15 10:08:05,576 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:08:06,445 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:08:07,156 root INFO Grid power: -1296 w Voltage: 233 v
+2022-07-15 10:08:07,932 root INFO Grid power: -1273 w Voltage: 233 v
+2022-07-15 10:08:08,826 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:08:09,557 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:08:10,388 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:11,132 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:11,937 root INFO Grid power: -1288 w Voltage: 233 v
+2022-07-15 10:08:12,896 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:08:13,538 root INFO Grid power: -1287 w Voltage: 233 v
+2022-07-15 10:08:14,354 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:08:15,148 root INFO Grid power: -1292 w Voltage: 233 v
+2022-07-15 10:08:15,949 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:08:16,771 root INFO Grid power: -1291 w Voltage: 233 v
+2022-07-15 10:08:17,637 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:18,347 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:08:19,147 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:08:19,956 root INFO Grid power: -1291 w Voltage: 233 v
+2022-07-15 10:08:20,772 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:08:21,554 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:08:22,357 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:08:23,154 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:08:23,983 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:24,802 root INFO Grid power: -1285 w Voltage: 233 v
+2022-07-15 10:08:25,559 root INFO Grid power: -1289 w Voltage: 233 v
+2022-07-15 10:08:26,440 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:08:27,166 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:08:27,964 root INFO Grid power: -1269 w Voltage: 233 v
+2022-07-15 10:08:28,800 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:29,601 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:30,485 root INFO Grid power: -1287 w Voltage: 233 v
+2022-07-15 10:08:31,203 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:31,971 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:32,833 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:33,591 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:08:34,434 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:08:35,300 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:08:35,973 root INFO Grid power: -1268 w Voltage: 233 v
+2022-07-15 10:08:36,796 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:08:37,584 root INFO Grid power: -1286 w Voltage: 233 v
+2022-07-15 10:08:38,389 root INFO Grid power: -1264 w Voltage: 233 v
+2022-07-15 10:08:39,299 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:39,986 root INFO Grid power: -1280 w Voltage: 233 v
+2022-07-15 10:08:40,823 root INFO Grid power: -1279 w Voltage: 233 v
+2022-07-15 10:08:41,678 root INFO Grid power: -1284 w Voltage: 233 v
+2022-07-15 10:08:42,447 root INFO Grid power: -1277 w Voltage: 233 v
+2022-07-15 10:08:43,224 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:08:44,22 root INFO Grid power: -1281 w Voltage: 233 v
+2022-07-15 10:08:44,837 root INFO Grid power: -1311 w Voltage: 233 v
+2022-07-15 10:08:45,596 root INFO Grid power: -1365 w Voltage: 233 v
+2022-07-15 10:08:46,396 root INFO Grid power: -1347 w Voltage: 233 v
+2022-07-15 10:08:47,219 root INFO Grid power: -1363 w Voltage: 233 v
+2022-07-15 10:08:48,70 root INFO Grid power: -1363 w Voltage: 233 v
+2022-07-15 10:08:48,804 root INFO Grid power: -1361 w Voltage: 233 v
+2022-07-15 10:08:49,595 root INFO Grid power: -1368 w Voltage: 233 v
+2022-07-15 10:08:50,399 root INFO Grid power: -1375 w Voltage: 233 v
+2022-07-15 10:08:51,201 root INFO Grid power: -1373 w Voltage: 233 v
+2022-07-15 10:08:51,996 root INFO Grid power: -1373 w Voltage: 233 v
+2022-07-15 10:08:52,858 root INFO Grid power: -1370 w Voltage: 233 v
+2022-07-15 10:08:53,616 root INFO Grid power: -1342 w Voltage: 233 v
+2022-07-15 10:08:54,400 root INFO Grid power: -1356 w Voltage: 233 v
+2022-07-15 10:08:54,523 root INFO --- Start: sign of life ---
+2022-07-15 10:08:54,524 root INFO Last _update() call: 1657879734.4021552
+2022-07-15 10:08:54,525 root INFO Last '/Ac/Power': -1356.2
+2022-07-15 10:08:54,527 root INFO --- End: sign of life ---
+2022-07-15 10:08:55,225 root INFO Grid power: -1363 w Voltage: 233 v
+2022-07-15 10:08:56,15 root INFO Grid power: -1363 w Voltage: 233 v
+2022-07-15 10:08:56,893 root INFO Grid power: -1361 w Voltage: 233 v
+2022-07-15 10:08:57,609 root INFO Grid power: -1362 w Voltage: 233 v
+2022-07-15 10:08:58,412 root INFO Grid power: -1330 w Voltage: 233 v
+2022-07-15 10:08:59,208 root INFO Grid power: -1356 w Voltage: 233 v
+2022-07-15 10:09:00,6 root INFO Grid power: -1356 w Voltage: 233 v
+2022-07-15 10:09:00,841 root INFO Grid power: -1336 w Voltage: 233 v
+2022-07-15 10:09:01,612 root INFO Grid power: -1333 w Voltage: 233 v
+2022-07-15 10:09:02,416 root INFO Grid power: -1312 w Voltage: 233 v
+2022-07-15 10:09:03,236 root INFO Grid power: -1317 w Voltage: 233 v
+2022-07-15 10:09:04,13 root INFO Grid power: -1317 w Voltage: 233 v
+2022-07-15 10:09:04,824 root INFO Grid power: -1326 w Voltage: 233 v
+2022-07-15 10:09:05,784 root INFO Grid power: -1342 w Voltage: 233 v
+2022-07-15 10:09:06,439 root INFO Grid power: -1354 w Voltage: 233 v
+2022-07-15 10:09:07,269 root INFO Grid power: -1354 w Voltage: 233 v
+2022-07-15 10:09:08,183 root INFO Grid power: -1349 w Voltage: 233 v
+2022-07-15 10:09:08,831 root INFO Grid power: -1335 w Voltage: 233 v
+2022-07-15 10:09:09,759 root INFO Grid power: -1324 w Voltage: 233 v
+2022-07-15 10:09:10,426 root INFO Grid power: -1351 w Voltage: 233 v
+2022-07-15 10:09:11,242 root INFO Grid power: -1355 w Voltage: 233 v
+2022-07-15 10:09:12,88 root INFO Grid power: -1355 w Voltage: 233 v
+2022-07-15 10:09:12,837 root INFO Grid power: -1351 w Voltage: 233 v
+2022-07-15 10:09:13,718 root INFO Grid power: -1339 w Voltage: 233 v
+2022-07-15 10:09:14,535 root INFO Grid power: -1337 w Voltage: 233 v
+2022-07-15 10:09:15,253 root INFO Grid power: -1350 w Voltage: 233 v
+2022-07-15 10:09:16,30 root INFO Grid power: -1350 w Voltage: 233 v
+2022-07-15 10:09:16,840 root INFO Grid power: -1354 w Voltage: 233 v
+2022-07-15 10:09:17,644 root INFO Grid power: -1351 w Voltage: 233 v
+2022-07-15 10:09:18,437 root INFO Grid power: -1341 w Voltage: 233 v
+2022-07-15 10:09:19,262 root INFO Grid power: -1322 w Voltage: 233 v
+2022-07-15 10:09:20,36 root INFO Grid power: -1322 w Voltage: 233 v
+2022-07-15 10:09:20,982 root INFO Grid power: -1347 w Voltage: 233 v
+2022-07-15 10:09:21,644 root INFO Grid power: -1350 w Voltage: 233 v
+2022-07-15 10:09:22,507 root INFO Grid power: -1351 w Voltage: 234 v
+2022-07-15 10:09:23,265 root INFO Grid power: -1368 w Voltage: 233 v
+2022-07-15 10:09:24,63 root INFO Grid power: -1368 w Voltage: 233 v
+2022-07-15 10:09:24,924 root INFO Grid power: -1355 w Voltage: 234 v
+2022-07-15 10:09:25,689 root INFO Grid power: -1370 w Voltage: 234 v
+2022-07-15 10:09:26,455 root INFO Grid power: -1379 w Voltage: 234 v
+2022-07-15 10:09:27,387 root INFO Grid power: -1384 w Voltage: 234 v
+2022-07-15 10:09:28,81 root INFO Grid power: -1384 w Voltage: 234 v
+2022-07-15 10:09:28,893 root INFO Grid power: -1345 w Voltage: 234 v
+2022-07-15 10:09:29,710 root INFO Grid power: -1301 w Voltage: 234 v
+2022-07-15 10:09:30,536 root INFO Grid power: -1316 w Voltage: 234 v
+2022-07-15 10:09:31,407 root INFO Grid power: -1391 w Voltage: 234 v
+2022-07-15 10:09:32,85 root INFO Grid power: -1391 w Voltage: 234 v
+2022-07-15 10:09:33,92 root INFO Grid power: -1371 w Voltage: 234 v
+2022-07-15 10:09:33,704 root INFO Grid power: -1362 w Voltage: 234 v
+2022-07-15 10:09:34,479 root INFO Grid power: -1309 w Voltage: 234 v
+2022-07-15 10:09:35,321 root INFO Grid power: -1347 w Voltage: 234 v
+2022-07-15 10:09:36,62 root INFO Grid power: -1347 w Voltage: 234 v
+2022-07-15 10:09:36,871 root INFO Grid power: -1387 w Voltage: 234 v
+2022-07-15 10:09:37,737 root INFO Grid power: -1378 w Voltage: 234 v
+2022-07-15 10:09:38,469 root INFO Grid power: -1375 w Voltage: 234 v
+2022-07-15 10:09:39,287 root INFO Grid power: -1373 w Voltage: 234 v
+2022-07-15 10:09:40,71 root INFO Grid power: -1373 w Voltage: 234 v
+2022-07-15 10:09:40,929 root INFO Grid power: -1388 w Voltage: 234 v
+2022-07-15 10:09:41,681 root INFO Grid power: -1400 w Voltage: 234 v
+2022-07-15 10:09:42,478 root INFO Grid power: -1369 w Voltage: 233 v
+2022-07-15 10:09:43,327 root INFO Grid power: -1374 w Voltage: 233 v
+2022-07-15 10:09:44,147 root INFO Grid power: -1374 w Voltage: 233 v
+2022-07-15 10:09:44,876 root INFO Grid power: -1348 w Voltage: 233 v
+2022-07-15 10:09:45,696 root INFO Grid power: -1365 w Voltage: 234 v
+2022-07-15 10:09:46,573 root INFO Grid power: -1376 w Voltage: 234 v
+2022-07-15 10:09:47,284 root INFO Grid power: -1377 w Voltage: 234 v
+2022-07-15 10:09:48,92 root INFO Grid power: -1377 w Voltage: 234 v
+2022-07-15 10:09:48,910 root INFO Grid power: -1375 w Voltage: 234 v
+2022-07-15 10:09:49,683 root INFO Grid power: -1349 w Voltage: 234 v
+2022-07-15 10:09:50,619 root INFO Grid power: -1367 w Voltage: 234 v
+2022-07-15 10:09:51,291 root INFO Grid power: -1372 w Voltage: 234 v
+2022-07-15 10:09:52,101 root INFO Grid power: -1372 w Voltage: 234 v
+2022-07-15 10:09:52,984 root INFO Grid power: -1379 w Voltage: 234 v
+2022-07-15 10:09:53,698 root INFO Grid power: -1377 w Voltage: 234 v
+2022-07-15 10:09:54,508 root INFO Grid power: -1381 w Voltage: 234 v
+2022-07-15 10:09:54,524 root INFO --- Start: sign of life ---
+2022-07-15 10:09:54,525 root INFO Last _update() call: 1657879794.5112584
+2022-07-15 10:09:54,527 root INFO Last '/Ac/Power': -1381.2
+2022-07-15 10:09:54,528 root INFO --- End: sign of life ---
+2022-07-15 10:09:55,365 root INFO Grid power: -1368 w Voltage: 234 v
+2022-07-15 10:09:56,91 root INFO Grid power: -1368 w Voltage: 234 v
+2022-07-15 10:09:57,43 root INFO Grid power: -1377 w Voltage: 234 v
+2022-07-15 10:09:57,696 root INFO Grid power: -1381 w Voltage: 234 v
+2022-07-15 10:09:58,505 root INFO Grid power: -1374 w Voltage: 234 v
+2022-07-15 10:09:59,426 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:00,144 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:00,926 root INFO Grid power: -1372 w Voltage: 234 v
+2022-07-15 10:10:01,706 root INFO Grid power: -1374 w Voltage: 234 v
+2022-07-15 10:10:02,560 root INFO Grid power: -1375 w Voltage: 234 v
+2022-07-15 10:10:03,365 root INFO Grid power: -1369 w Voltage: 234 v
+2022-07-15 10:10:04,154 root INFO Grid power: -1369 w Voltage: 234 v
+2022-07-15 10:10:04,971 root INFO Grid power: -1358 w Voltage: 234 v
+2022-07-15 10:10:05,883 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:06,514 root INFO Grid power: -1369 w Voltage: 234 v
+2022-07-15 10:10:07,421 root INFO Grid power: -1369 w Voltage: 234 v
+2022-07-15 10:10:08,114 root INFO Grid power: -1366 w Voltage: 234 v
+2022-07-15 10:10:08,923 root INFO Grid power: -1369 w Voltage: 234 v
+2022-07-15 10:10:09,831 root INFO Grid power: -1364 w Voltage: 234 v
+2022-07-15 10:10:10,523 root INFO Grid power: -1357 w Voltage: 234 v
+2022-07-15 10:10:11,318 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:12,207 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:12,962 root INFO Grid power: -1359 w Voltage: 234 v
+2022-07-15 10:10:13,727 root INFO Grid power: -1363 w Voltage: 234 v
+2022-07-15 10:10:14,522 root INFO Grid power: -1359 w Voltage: 234 v
+2022-07-15 10:10:15,339 root INFO Grid power: -1344 w Voltage: 234 v
+2022-07-15 10:10:16,142 root INFO Grid power: -1344 w Voltage: 234 v
+2022-07-15 10:10:16,970 root INFO Grid power: -1351 w Voltage: 234 v
+2022-07-15 10:10:17,742 root INFO Grid power: -1359 w Voltage: 234 v
+2022-07-15 10:10:18,627 root INFO Grid power: -1366 w Voltage: 234 v
+2022-07-15 10:10:19,351 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:20,151 root INFO Grid power: -1360 w Voltage: 234 v
+2022-07-15 10:10:20,961 root INFO Grid power: -1358 w Voltage: 234 v
+2022-07-15 10:10:21,749 root INFO Grid power: -1355 w Voltage: 234 v
+2022-07-15 10:10:22,540 root INFO Grid power: -1352 w Voltage: 234 v
+2022-07-15 10:10:23,381 root INFO Grid power: -1353 w Voltage: 234 v
+2022-07-15 10:10:24,153 root INFO Grid power: -1353 w Voltage: 234 v
+2022-07-15 10:10:25,98 root INFO Grid power: -1333 w Voltage: 234 v
+2022-07-15 10:10:25,793 root INFO Grid power: -1332 w Voltage: 234 v
+2022-07-15 10:10:26,546 root INFO Grid power: -1330 w Voltage: 234 v
+2022-07-15 10:10:27,511 root INFO Grid power: -1343 w Voltage: 234 v
+2022-07-15 10:10:28,143 root INFO Grid power: -1343 w Voltage: 234 v
+2022-07-15 10:10:28,975 root INFO Grid power: -1340 w Voltage: 234 v
+2022-07-15 10:10:29,762 root INFO Grid power: -1342 w Voltage: 234 v
+2022-07-15 10:10:30,548 root INFO Grid power: -1311 w Voltage: 234 v
+2022-07-15 10:10:31,431 root INFO Grid power: -1332 w Voltage: 234 v
+2022-07-15 10:10:32,180 root INFO Grid power: -1332 w Voltage: 234 v
+2022-07-15 10:10:32,980 root INFO Grid power: -1340 w Voltage: 234 v
+2022-07-15 10:10:33,851 root INFO Grid power: -1337 w Voltage: 234 v
+2022-07-15 10:10:34,557 root INFO Grid power: -1344 w Voltage: 234 v
+2022-07-15 10:10:35,353 root INFO Grid power: -1327 w Voltage: 234 v
+2022-07-15 10:10:36,182 root INFO Grid power: -1327 w Voltage: 234 v
+2022-07-15 10:10:36,962 root INFO Grid power: -1338 w Voltage: 234 v
+2022-07-15 10:10:37,775 root INFO Grid power: -1340 w Voltage: 234 v
+2022-07-15 10:10:38,558 root INFO Grid power: -1342 w Voltage: 234 v
+2022-07-15 10:10:39,361 root INFO Grid power: -1345 w Voltage: 234 v
+2022-07-15 10:10:40,189 root INFO Grid power: -1345 w Voltage: 234 v
+2022-07-15 10:10:41,9 root INFO Grid power: -1350 w Voltage: 234 v
+2022-07-15 10:10:41,772 root INFO Grid power: -1341 w Voltage: 234 v
+2022-07-15 10:10:42,663 root INFO Grid power: -1348 w Voltage: 234 v
+2022-07-15 10:10:43,367 root INFO Grid power: -1354 w Voltage: 234 v
+2022-07-15 10:10:44,249 root INFO Grid power: -1353 w Voltage: 234 v
+2022-07-15 10:10:45,26 root INFO Grid power: -1353 w Voltage: 234 v
+2022-07-15 10:10:45,813 root INFO Grid power: -1394 w Voltage: 234 v
+2022-07-15 10:10:46,575 root INFO Grid power: -1426 w Voltage: 234 v
+2022-07-15 10:10:47,420 root INFO Grid power: -1466 w Voltage: 234 v
+2022-07-15 10:10:48,194 root INFO Grid power: -1473 w Voltage: 234 v
+2022-07-15 10:10:49,73 root INFO Grid power: -1473 w Voltage: 234 v
+2022-07-15 10:10:49,811 root INFO Grid power: -1472 w Voltage: 234 v
+2022-07-15 10:10:50,579 root INFO Grid power: -1455 w Voltage: 234 v
+2022-07-15 10:10:51,501 root INFO Grid power: -1469 w Voltage: 234 v
+2022-07-15 10:10:52,196 root INFO Grid power: -1470 w Voltage: 234 v
+2022-07-15 10:10:53,22 root INFO Grid power: -1470 w Voltage: 234 v
+2022-07-15 10:10:53,783 root INFO Grid power: -1477 w Voltage: 234 v
+2022-07-15 10:10:54,525 root INFO --- Start: sign of life ---
+2022-07-15 10:10:54,526 root INFO Last _update() call: 1657879853.7860086
+2022-07-15 10:10:54,527 root INFO Last '/Ac/Power': -1477.1
+2022-07-15 10:10:54,528 root INFO --- End: sign of life ---
+2022-07-15 10:10:54,586 root INFO Grid power: -1480 w Voltage: 234 v
+2022-07-15 10:10:55,387 root INFO Grid power: -1477 w Voltage: 234 v
+2022-07-15 10:10:56,217 root INFO Grid power: -1468 w Voltage: 234 v
+2022-07-15 10:10:57,5 root INFO Grid power: -1468 w Voltage: 234 v
+2022-07-15 10:10:57,851 root INFO Grid power: -1474 w Voltage: 234 v
+2022-07-15 10:10:58,620 root INFO Grid power: -1476 w Voltage: 234 v
+2022-07-15 10:10:59,418 root INFO Grid power: -1475 w Voltage: 234 v
+2022-07-15 10:11:00,304 root INFO Grid power: -1474 w Voltage: 234 v
+2022-07-15 10:11:00,994 root INFO Grid power: -1474 w Voltage: 234 v
+2022-07-15 10:11:01,794 root INFO Grid power: -1460 w Voltage: 234 v
+2022-07-15 10:11:02,643 root INFO Grid power: -1465 w Voltage: 234 v
+2022-07-15 10:11:03,399 root INFO Grid power: -1476 w Voltage: 234 v
+2022-07-15 10:11:04,214 root INFO Grid power: -1485 w Voltage: 234 v
+2022-07-15 10:11:04,998 root INFO Grid power: -1485 w Voltage: 234 v
+2022-07-15 10:11:05,887 root INFO Grid power: -1487 w Voltage: 234 v
+2022-07-15 10:11:06,693 root INFO Grid power: -1472 w Voltage: 234 v
+2022-07-15 10:11:07,445 root INFO Grid power: -1478 w Voltage: 234 v
+2022-07-15 10:11:08,205 root INFO Grid power: -1478 w Voltage: 234 v
+2022-07-15 10:11:09,128 root INFO Grid power: -1490 w Voltage: 234 v
+2022-07-15 10:11:09,807 root INFO Grid power: -1490 w Voltage: 234 v
+2022-07-15 10:11:10,614 root INFO Grid power: -1493 w Voltage: 234 v
+2022-07-15 10:11:11,413 root INFO Grid power: -1490 w Voltage: 234 v
+2022-07-15 10:11:12,327 root INFO Grid power: -1487 w Voltage: 234 v
+2022-07-15 10:11:13,86 root INFO Grid power: -1487 w Voltage: 234 v
+2022-07-15 10:11:13,845 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:11:14,616 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:11:15,427 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:11:16,217 root INFO Grid power: -1481 w Voltage: 234 v
+2022-07-15 10:11:17,16 root INFO Grid power: -1481 w Voltage: 234 v
+2022-07-15 10:11:17,871 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:11:18,620 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:11:19,420 root INFO Grid power: -1499 w Voltage: 233 v
+2022-07-15 10:11:20,274 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:11:21,22 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:11:21,832 root INFO Grid power: -1482 w Voltage: 234 v
+2022-07-15 10:11:22,630 root INFO Grid power: -1491 w Voltage: 234 v
+2022-07-15 10:11:23,450 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:11:24,322 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:11:25,29 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:11:25,838 root INFO Grid power: -1508 w Voltage: 234 v
+2022-07-15 10:11:26,700 root INFO Grid power: -1499 w Voltage: 234 v
+2022-07-15 10:11:27,442 root INFO Grid power: -1495 w Voltage: 234 v
+2022-07-15 10:11:28,310 root INFO Grid power: -1496 w Voltage: 234 v
+2022-07-15 10:11:29,56 root INFO Grid power: -1496 w Voltage: 234 v
+2022-07-15 10:11:29,836 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:11:30,665 root INFO Grid power: -1508 w Voltage: 234 v
+2022-07-15 10:11:31,497 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:11:32,273 root INFO Grid power: -1485 w Voltage: 234 v
+2022-07-15 10:11:33,89 root INFO Grid power: -1485 w Voltage: 234 v
+2022-07-15 10:11:33,958 root INFO Grid power: -1496 w Voltage: 234 v
+2022-07-15 10:11:34,776 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:11:35,453 root INFO Grid power: -1499 w Voltage: 233 v
+2022-07-15 10:11:36,267 root INFO Grid power: -1498 w Voltage: 234 v
+2022-07-15 10:11:37,49 root INFO Grid power: -1498 w Voltage: 234 v
+2022-07-15 10:11:37,848 root INFO Grid power: -1480 w Voltage: 234 v
+2022-07-15 10:11:38,659 root INFO Grid power: -1488 w Voltage: 233 v
+2022-07-15 10:11:39,495 root INFO Grid power: -1490 w Voltage: 234 v
+2022-07-15 10:11:40,378 root INFO Grid power: -1499 w Voltage: 234 v
+2022-07-15 10:11:41,57 root INFO Grid power: -1499 w Voltage: 234 v
+2022-07-15 10:11:41,871 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:11:42,834 root INFO Grid power: -1486 w Voltage: 234 v
+2022-07-15 10:11:43,501 root INFO Grid power: -1490 w Voltage: 234 v
+2022-07-15 10:11:44,383 root INFO Grid power: -1492 w Voltage: 233 v
+2022-07-15 10:11:45,119 root INFO Grid power: -1492 w Voltage: 233 v
+2022-07-15 10:11:45,923 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:11:46,689 root INFO Grid power: -1492 w Voltage: 234 v
+2022-07-15 10:11:47,521 root INFO Grid power: -1488 w Voltage: 233 v
+2022-07-15 10:11:48,314 root INFO Grid power: -1490 w Voltage: 233 v
+2022-07-15 10:11:49,67 root INFO Grid power: -1490 w Voltage: 233 v
+2022-07-15 10:11:49,916 root INFO Grid power: -1502 w Voltage: 233 v
+2022-07-15 10:11:50,780 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:11:51,561 root INFO Grid power: -1502 w Voltage: 233 v
+2022-07-15 10:11:52,360 root INFO Grid power: -1481 w Voltage: 234 v
+2022-07-15 10:11:53,237 root INFO Grid power: -1481 w Voltage: 234 v
+2022-07-15 10:11:53,904 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:11:54,525 root INFO --- Start: sign of life ---
+2022-07-15 10:11:54,526 root INFO Last _update() call: 1657879913.905806
+2022-07-15 10:11:54,527 root INFO Last '/Ac/Power': -1494.1
+2022-07-15 10:11:54,527 root INFO --- End: sign of life ---
+2022-07-15 10:11:54,775 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:11:55,478 root INFO Grid power: -1505 w Voltage: 234 v
+2022-07-15 10:11:56,277 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:11:57,100 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:11:57,959 root INFO Grid power: -1489 w Voltage: 233 v
+2022-07-15 10:11:58,698 root INFO Grid power: -1494 w Voltage: 233 v
+2022-07-15 10:11:59,528 root INFO Grid power: -1496 w Voltage: 233 v
+2022-07-15 10:12:00,288 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:12:01,83 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:12:02,60 root INFO Grid power: -1504 w Voltage: 233 v
+2022-07-15 10:12:02,755 root INFO Grid power: -1505 w Voltage: 233 v
+2022-07-15 10:12:03,489 root INFO Grid power: -1489 w Voltage: 233 v
+2022-07-15 10:12:04,399 root INFO Grid power: -1497 w Voltage: 234 v
+2022-07-15 10:12:05,91 root INFO Grid power: -1497 w Voltage: 234 v
+2022-07-15 10:12:05,900 root INFO Grid power: -1507 w Voltage: 233 v
+2022-07-15 10:12:06,726 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:12:07,499 root INFO Grid power: -1484 w Voltage: 233 v
+2022-07-15 10:12:08,387 root INFO Grid power: -1501 w Voltage: 234 v
+2022-07-15 10:12:09,124 root INFO Grid power: -1501 w Voltage: 234 v
+2022-07-15 10:12:09,907 root INFO Grid power: -1509 w Voltage: 234 v
+2022-07-15 10:12:10,807 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:12:11,504 root INFO Grid power: -1501 w Voltage: 234 v
+2022-07-15 10:12:12,414 root INFO Grid power: -1488 w Voltage: 234 v
+2022-07-15 10:12:13,126 root INFO Grid power: -1488 w Voltage: 234 v
+2022-07-15 10:12:13,920 root INFO Grid power: -1487 w Voltage: 233 v
+2022-07-15 10:12:14,925 root INFO Grid power: -1505 w Voltage: 234 v
+2022-07-15 10:12:15,511 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:12:16,353 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:12:17,255 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:12:18,7 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:18,847 root INFO Grid power: -1494 w Voltage: 234 v
+2022-07-15 10:12:19,535 root INFO Grid power: -1496 w Voltage: 234 v
+2022-07-15 10:12:20,318 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:21,198 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:21,923 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:12:22,754 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:12:23,530 root INFO Grid power: -1488 w Voltage: 234 v
+2022-07-15 10:12:24,324 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:25,127 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:25,930 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:12:26,790 root INFO Grid power: -1510 w Voltage: 234 v
+2022-07-15 10:12:27,646 root INFO Grid power: -1513 w Voltage: 234 v
+2022-07-15 10:12:28,330 root INFO Grid power: -1509 w Voltage: 234 v
+2022-07-15 10:12:29,240 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:29,931 root INFO Grid power: -1503 w Voltage: 234 v
+2022-07-15 10:12:30,765 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:12:31,641 root INFO Grid power: -1517 w Voltage: 234 v
+2022-07-15 10:12:32,398 root INFO Grid power: -1516 w Voltage: 233 v
+2022-07-15 10:12:33,156 root INFO Grid power: -1516 w Voltage: 233 v
+2022-07-15 10:12:33,974 root INFO Grid power: -1509 w Voltage: 234 v
+2022-07-15 10:12:34,782 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:12:35,620 root INFO Grid power: -1520 w Voltage: 233 v
+2022-07-15 10:12:36,346 root INFO Grid power: -1517 w Voltage: 233 v
+2022-07-15 10:12:37,148 root INFO Grid power: -1517 w Voltage: 233 v
+2022-07-15 10:12:37,949 root INFO Grid power: -1517 w Voltage: 233 v
+2022-07-15 10:12:38,899 root INFO Grid power: -1493 w Voltage: 233 v
+2022-07-15 10:12:39,545 root INFO Grid power: -1515 w Voltage: 233 v
+2022-07-15 10:12:40,433 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:12:41,149 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:12:41,998 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:12:42,776 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:12:43,555 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:12:44,357 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:12:45,163 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:12:45,963 root INFO Grid power: -1549 w Voltage: 234 v
+2022-07-15 10:12:46,772 root INFO Grid power: -1561 w Voltage: 234 v
+2022-07-15 10:12:47,562 root INFO Grid power: -1562 w Voltage: 234 v
+2022-07-15 10:12:48,363 root INFO Grid power: -1560 w Voltage: 234 v
+2022-07-15 10:12:49,189 root INFO Grid power: -1560 w Voltage: 234 v
+2022-07-15 10:12:49,997 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:12:50,842 root INFO Grid power: -1554 w Voltage: 233 v
+2022-07-15 10:12:51,587 root INFO Grid power: -1559 w Voltage: 234 v
+2022-07-15 10:12:52,386 root INFO Grid power: -1560 w Voltage: 234 v
+2022-07-15 10:12:53,277 root INFO Grid power: -1555 w Voltage: 234 v
+2022-07-15 10:12:53,970 root INFO Grid power: -1555 w Voltage: 234 v
+2022-07-15 10:12:54,526 root INFO --- Start: sign of life ---
+2022-07-15 10:12:54,527 root INFO Last _update() call: 1657879973.972149
+2022-07-15 10:12:54,528 root INFO Last '/Ac/Power': -1555.2
+2022-07-15 10:12:54,529 root INFO --- End: sign of life ---
+2022-07-15 10:12:54,811 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:12:55,638 root INFO Grid power: -1549 w Voltage: 234 v
+2022-07-15 10:12:56,419 root INFO Grid power: -1554 w Voltage: 234 v
+2022-07-15 10:12:57,299 root INFO Grid power: -1547 w Voltage: 234 v
+2022-07-15 10:12:58,89 root INFO Grid power: -1547 w Voltage: 234 v
+2022-07-15 10:12:58,840 root INFO Grid power: -1533 w Voltage: 234 v
+2022-07-15 10:12:59,578 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:13:00,485 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:13:01,297 root INFO Grid power: -1545 w Voltage: 234 v
+2022-07-15 10:13:02,104 root INFO Grid power: -1545 w Voltage: 234 v
+2022-07-15 10:13:02,934 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:13:03,605 root INFO Grid power: -1536 w Voltage: 234 v
+2022-07-15 10:13:04,460 root INFO Grid power: -1535 w Voltage: 234 v
+2022-07-15 10:13:05,252 root INFO Grid power: -1541 w Voltage: 234 v
+2022-07-15 10:13:05,991 root INFO Grid power: -1541 w Voltage: 234 v
+2022-07-15 10:13:06,795 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:13:07,591 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:13:08,395 root INFO Grid power: -1544 w Voltage: 234 v
+2022-07-15 10:13:09,200 root INFO Grid power: -1544 w Voltage: 234 v
+2022-07-15 10:13:09,998 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:13:10,910 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:13:11,597 root INFO Grid power: -1538 w Voltage: 234 v
+2022-07-15 10:13:12,421 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:13:13,275 root INFO Grid power: -1536 w Voltage: 234 v
+2022-07-15 10:13:14,0 root INFO Grid power: -1536 w Voltage: 234 v
+2022-07-15 10:13:14,827 root INFO Grid power: -1509 w Voltage: 234 v
+2022-07-15 10:13:15,741 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:13:16,431 root INFO Grid power: -1526 w Voltage: 234 v
+2022-07-15 10:13:17,209 root INFO Grid power: -1526 w Voltage: 234 v
+2022-07-15 10:13:18,69 root INFO Grid power: -1526 w Voltage: 234 v
+2022-07-15 10:13:18,847 root INFO Grid power: -1530 w Voltage: 234 v
+2022-07-15 10:13:19,684 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:13:20,415 root INFO Grid power: -1517 w Voltage: 234 v
+2022-07-15 10:13:21,218 root INFO Grid power: -1520 w Voltage: 234 v
+2022-07-15 10:13:22,93 root INFO Grid power: -1520 w Voltage: 234 v
+2022-07-15 10:13:22,944 root INFO Grid power: -1528 w Voltage: 234 v
+2022-07-15 10:13:23,617 root INFO Grid power: -1521 w Voltage: 234 v
+2022-07-15 10:13:24,526 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:13:25,221 root INFO Grid power: -1513 w Voltage: 233 v
+2022-07-15 10:13:26,36 root INFO Grid power: -1513 w Voltage: 233 v
+2022-07-15 10:13:26,825 root INFO Grid power: -1519 w Voltage: 233 v
+2022-07-15 10:13:27,625 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:13:28,464 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:13:29,240 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:13:30,67 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:13:30,941 root INFO Grid power: -1518 w Voltage: 233 v
+2022-07-15 10:13:31,711 root INFO Grid power: -1515 w Voltage: 233 v
+2022-07-15 10:13:32,462 root INFO Grid power: -1517 w Voltage: 233 v
+2022-07-15 10:13:33,328 root INFO Grid power: -1506 w Voltage: 233 v
+2022-07-15 10:13:34,105 root INFO Grid power: -1506 w Voltage: 233 v
+2022-07-15 10:13:35,3 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:13:35,635 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:13:36,437 root INFO Grid power: -1515 w Voltage: 234 v
+2022-07-15 10:13:37,253 root INFO Grid power: -1521 w Voltage: 233 v
+2022-07-15 10:13:38,56 root INFO Grid power: -1521 w Voltage: 233 v
+2022-07-15 10:13:38,901 root INFO Grid power: -1519 w Voltage: 233 v
+2022-07-15 10:13:39,662 root INFO Grid power: -1519 w Voltage: 233 v
+2022-07-15 10:13:40,452 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:13:41,279 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:13:42,53 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:13:42,844 root INFO Grid power: -1519 w Voltage: 234 v
+2022-07-15 10:13:43,717 root INFO Grid power: -1515 w Voltage: 234 v
+2022-07-15 10:13:44,448 root INFO Grid power: -1517 w Voltage: 234 v
+2022-07-15 10:13:45,288 root INFO Grid power: -1498 w Voltage: 234 v
+2022-07-15 10:13:46,49 root INFO Grid power: -1498 w Voltage: 234 v
+2022-07-15 10:13:46,860 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:13:47,699 root INFO Grid power: -1513 w Voltage: 234 v
+2022-07-15 10:13:48,464 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:49,276 root INFO Grid power: -1501 w Voltage: 234 v
+2022-07-15 10:13:50,153 root INFO Grid power: -1501 w Voltage: 234 v
+2022-07-15 10:13:50,918 root INFO Grid power: -1511 w Voltage: 234 v
+2022-07-15 10:13:51,692 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:52,610 root INFO Grid power: -1515 w Voltage: 234 v
+2022-07-15 10:13:53,290 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:13:54,137 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:13:54,527 root INFO --- Start: sign of life ---
+2022-07-15 10:13:54,528 root INFO Last _update() call: 1657880034.138362
+2022-07-15 10:13:54,528 root INFO Last '/Ac/Power': -1517.5
+2022-07-15 10:13:54,529 root INFO --- End: sign of life ---
+2022-07-15 10:13:54,897 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:55,671 root INFO Grid power: -1502 w Voltage: 234 v
+2022-07-15 10:13:56,630 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:13:57,348 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:58,87 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:58,873 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:13:59,673 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:14:00,479 root INFO Grid power: -1493 w Voltage: 234 v
+2022-07-15 10:14:01,324 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:14:02,83 root INFO Grid power: -1507 w Voltage: 234 v
+2022-07-15 10:14:02,988 root INFO Grid power: -1510 w Voltage: 234 v
+2022-07-15 10:14:03,681 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:14:04,510 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:14:05,342 root INFO Grid power: -1521 w Voltage: 234 v
+2022-07-15 10:14:06,78 root INFO Grid power: -1521 w Voltage: 234 v
+2022-07-15 10:14:06,938 root INFO Grid power: -1511 w Voltage: 234 v
+2022-07-15 10:14:07,783 root INFO Grid power: -1517 w Voltage: 234 v
+2022-07-15 10:14:08,483 root INFO Grid power: -1521 w Voltage: 234 v
+2022-07-15 10:14:09,386 root INFO Grid power: -1521 w Voltage: 234 v
+2022-07-15 10:14:10,90 root INFO Grid power: -1523 w Voltage: 234 v
+2022-07-15 10:14:10,892 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:14:11,804 root INFO Grid power: -1512 w Voltage: 233 v
+2022-07-15 10:14:12,488 root INFO Grid power: -1513 w Voltage: 233 v
+2022-07-15 10:14:13,293 root INFO Grid power: -1516 w Voltage: 233 v
+2022-07-15 10:14:14,91 root INFO Grid power: -1516 w Voltage: 233 v
+2022-07-15 10:14:14,900 root INFO Grid power: -1517 w Voltage: 233 v
+2022-07-15 10:14:15,701 root INFO Grid power: -1497 w Voltage: 234 v
+2022-07-15 10:14:16,502 root INFO Grid power: -1509 w Voltage: 234 v
+2022-07-15 10:14:17,296 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:14:18,99 root INFO Grid power: -1504 w Voltage: 234 v
+2022-07-15 10:14:18,936 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:14:19,706 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:14:20,563 root INFO Grid power: -1488 w Voltage: 234 v
+2022-07-15 10:14:21,327 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:14:22,102 root INFO Grid power: -1500 w Voltage: 234 v
+2022-07-15 10:14:23,32 root INFO Grid power: -1506 w Voltage: 234 v
+2022-07-15 10:14:23,732 root INFO Grid power: -1511 w Voltage: 234 v
+2022-07-15 10:14:24,514 root INFO Grid power: -1510 w Voltage: 234 v
+2022-07-15 10:14:25,492 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:14:26,143 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:14:27,110 root INFO Grid power: -1484 w Voltage: 234 v
+2022-07-15 10:14:27,783 root INFO Grid power: -756 w Voltage: 233 v
+2022-07-15 10:14:28,516 root INFO Grid power: -1466 w Voltage: 234 v
+2022-07-15 10:14:29,316 root INFO Grid power: -1460 w Voltage: 234 v
+2022-07-15 10:14:30,114 root INFO Grid power: -1460 w Voltage: 234 v
+2022-07-15 10:14:30,973 root INFO Grid power: -1461 w Voltage: 234 v
+2022-07-15 10:14:31,780 root INFO Grid power: -1440 w Voltage: 234 v
+2022-07-15 10:14:32,552 root INFO Grid power: -1451 w Voltage: 234 v
+2022-07-15 10:14:33,321 root INFO Grid power: -1457 w Voltage: 234 v
+2022-07-15 10:14:34,185 root INFO Grid power: -1457 w Voltage: 234 v
+2022-07-15 10:14:34,984 root INFO Grid power: -1459 w Voltage: 234 v
+2022-07-15 10:14:35,788 root INFO Grid power: -1461 w Voltage: 234 v
+2022-07-15 10:14:36,527 root INFO Grid power: -1456 w Voltage: 234 v
+2022-07-15 10:14:37,471 root INFO Grid power: -1456 w Voltage: 234 v
+2022-07-15 10:14:38,276 root INFO Grid power: -1456 w Voltage: 234 v
+2022-07-15 10:14:39,86 root INFO Grid power: -1458 w Voltage: 234 v
+2022-07-15 10:14:39,775 root INFO Grid power: -1463 w Voltage: 234 v
+2022-07-15 10:14:40,640 root INFO Grid power: -1462 w Voltage: 234 v
+2022-07-15 10:14:41,340 root INFO Grid power: -1445 w Voltage: 234 v
+2022-07-15 10:14:42,133 root INFO Grid power: -1445 w Voltage: 234 v
+2022-07-15 10:14:42,936 root INFO Grid power: -1457 w Voltage: 234 v
+2022-07-15 10:14:43,754 root INFO Grid power: -1459 w Voltage: 234 v
+2022-07-15 10:14:44,540 root INFO Grid power: -1472 w Voltage: 234 v
+2022-07-15 10:14:45,363 root INFO Grid power: -1515 w Voltage: 234 v
+2022-07-15 10:14:46,145 root INFO Grid power: -1515 w Voltage: 234 v
+2022-07-15 10:14:47,181 root INFO Grid power: -1498 w Voltage: 234 v
+2022-07-15 10:14:47,799 root INFO Grid power: -1511 w Voltage: 234 v
+2022-07-15 10:14:48,558 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:14:49,426 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:14:50,144 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:14:50,998 root INFO Grid power: -1526 w Voltage: 234 v
+2022-07-15 10:14:51,770 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:14:52,594 root INFO Grid power: -1517 w Voltage: 234 v
+2022-07-15 10:14:53,536 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:14:54,159 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:14:54,527 root INFO --- Start: sign of life ---
+2022-07-15 10:14:54,528 root INFO Last _update() call: 1657880094.1607618
+2022-07-15 10:14:54,529 root INFO Last '/Ac/Power': -1523.7
+2022-07-15 10:14:54,529 root INFO --- End: sign of life ---
+2022-07-15 10:14:54,995 root INFO Grid power: -1527 w Voltage: 234 v
+2022-07-15 10:14:55,773 root INFO Grid power: -1530 w Voltage: 234 v
+2022-07-15 10:14:56,563 root INFO Grid power: -1526 w Voltage: 234 v
+2022-07-15 10:14:57,489 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:14:58,278 root INFO Grid power: -1518 w Voltage: 234 v
+2022-07-15 10:14:59,27 root INFO Grid power: -1528 w Voltage: 234 v
+2022-07-15 10:14:59,903 root INFO Grid power: -1533 w Voltage: 234 v
+2022-07-15 10:15:00,566 root INFO Grid power: -1529 w Voltage: 234 v
+2022-07-15 10:15:01,370 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:15:02,163 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:15:02,984 root INFO Grid power: -1512 w Voltage: 234 v
+2022-07-15 10:15:03,788 root INFO Grid power: -1528 w Voltage: 234 v
+2022-07-15 10:15:04,566 root INFO Grid power: -1537 w Voltage: 234 v
+2022-07-15 10:15:05,490 root INFO Grid power: -1533 w Voltage: 234 v
+2022-07-15 10:15:06,289 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:15:07,15 root INFO Grid power: -1516 w Voltage: 234 v
+2022-07-15 10:15:07,929 root INFO Grid power: -1529 w Voltage: 234 v
+2022-07-15 10:15:08,578 root INFO Grid power: -1537 w Voltage: 234 v
+2022-07-15 10:15:09,377 root INFO Grid power: -1537 w Voltage: 234 v
+2022-07-15 10:15:10,177 root INFO Grid power: -1541 w Voltage: 233 v
+2022-07-15 10:15:10,999 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:11,831 root INFO Grid power: -1532 w Voltage: 233 v
+2022-07-15 10:15:12,622 root INFO Grid power: -1534 w Voltage: 233 v
+2022-07-15 10:15:13,440 root INFO Grid power: -1535 w Voltage: 234 v
+2022-07-15 10:15:14,290 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:15:15,24 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:15:15,792 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:15:16,804 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:15:17,387 root INFO Grid power: -1513 w Voltage: 234 v
+2022-07-15 10:15:18,195 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:15:19,24 root INFO Grid power: -1524 w Voltage: 234 v
+2022-07-15 10:15:19,796 root INFO Grid power: -1528 w Voltage: 233 v
+2022-07-15 10:15:20,594 root INFO Grid power: -1530 w Voltage: 233 v
+2022-07-15 10:15:21,404 root INFO Grid power: -1527 w Voltage: 233 v
+2022-07-15 10:15:22,199 root INFO Grid power: -1512 w Voltage: 233 v
+2022-07-15 10:15:23,139 root INFO Grid power: -1512 w Voltage: 233 v
+2022-07-15 10:15:23,805 root INFO Grid power: -1514 w Voltage: 234 v
+2022-07-15 10:15:24,609 root INFO Grid power: -1528 w Voltage: 233 v
+2022-07-15 10:15:25,467 root INFO Grid power: -1532 w Voltage: 233 v
+2022-07-15 10:15:26,201 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:15:27,0 root INFO Grid power: -1534 w Voltage: 234 v
+2022-07-15 10:15:27,879 root INFO Grid power: -1529 w Voltage: 234 v
+2022-07-15 10:15:28,650 root INFO Grid power: -1526 w Voltage: 233 v
+2022-07-15 10:15:29,511 root INFO Grid power: -1531 w Voltage: 234 v
+2022-07-15 10:15:30,254 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:31,4 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:31,885 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:32,639 root INFO Grid power: -1530 w Voltage: 234 v
+2022-07-15 10:15:33,456 root INFO Grid power: -1547 w Voltage: 234 v
+2022-07-15 10:15:34,335 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:15:35,10 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:15:35,825 root INFO Grid power: -1551 w Voltage: 234 v
+2022-07-15 10:15:36,617 root INFO Grid power: -1552 w Voltage: 234 v
+2022-07-15 10:15:37,421 root INFO Grid power: -1529 w Voltage: 234 v
+2022-07-15 10:15:38,325 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:15:39,19 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:15:39,859 root INFO Grid power: -1552 w Voltage: 234 v
+2022-07-15 10:15:40,697 root INFO Grid power: -1549 w Voltage: 234 v
+2022-07-15 10:15:41,500 root INFO Grid power: -1551 w Voltage: 234 v
+2022-07-15 10:15:42,262 root INFO Grid power: -1539 w Voltage: 234 v
+2022-07-15 10:15:43,134 root INFO Grid power: -1539 w Voltage: 234 v
+2022-07-15 10:15:43,859 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:15:44,657 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:45,434 root INFO Grid power: -1550 w Voltage: 234 v
+2022-07-15 10:15:46,278 root INFO Grid power: -1547 w Voltage: 234 v
+2022-07-15 10:15:47,27 root INFO Grid power: -1547 w Voltage: 234 v
+2022-07-15 10:15:47,835 root INFO Grid power: -1545 w Voltage: 234 v
+2022-07-15 10:15:48,649 root INFO Grid power: -1527 w Voltage: 234 v
+2022-07-15 10:15:49,536 root INFO Grid power: -1537 w Voltage: 234 v
+2022-07-15 10:15:50,244 root INFO Grid power: -1548 w Voltage: 234 v
+2022-07-15 10:15:51,33 root INFO Grid power: -1548 w Voltage: 234 v
+2022-07-15 10:15:51,921 root INFO Grid power: -1551 w Voltage: 234 v
+2022-07-15 10:15:52,638 root INFO Grid power: -1550 w Voltage: 234 v
+2022-07-15 10:15:53,455 root INFO Grid power: -1527 w Voltage: 234 v
+2022-07-15 10:15:54,254 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:15:54,528 root INFO --- Start: sign of life ---
+2022-07-15 10:15:54,529 root INFO Last _update() call: 1657880154.2557738
+2022-07-15 10:15:54,530 root INFO Last '/Ac/Power': -1546.3
+2022-07-15 10:15:54,530 root INFO --- End: sign of life ---
+2022-07-15 10:15:55,40 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:15:55,845 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:15:56,682 root INFO Grid power: -1549 w Voltage: 234 v
+2022-07-15 10:15:57,444 root INFO Grid power: -1546 w Voltage: 234 v
+2022-07-15 10:15:58,268 root INFO Grid power: -1538 w Voltage: 234 v
+2022-07-15 10:15:59,46 root INFO Grid power: -1538 w Voltage: 234 v
+2022-07-15 10:15:59,849 root INFO Grid power: -1544 w Voltage: 234 v
+2022-07-15 10:16:00,791 root INFO Grid power: -1548 w Voltage: 233 v
+2022-07-15 10:16:01,477 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:16:02,316 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:16:03,60 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:16:03,864 root INFO Grid power: -1535 w Voltage: 234 v
+2022-07-15 10:16:04,657 root INFO Grid power: -1541 w Voltage: 233 v
+2022-07-15 10:16:05,460 root INFO Grid power: -1545 w Voltage: 233 v
+2022-07-15 10:16:06,506 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:16:07,62 root INFO Grid power: -1543 w Voltage: 234 v
+2022-07-15 10:16:08,91 root INFO Grid power: -1545 w Voltage: 234 v
+2022-07-15 10:16:08,666 root INFO Grid power: -1522 w Voltage: 234 v
+2022-07-15 10:16:09,540 root INFO Grid power: -1537 w Voltage: 234 v
+2022-07-15 10:16:10,282 root INFO Grid power: -1540 w Voltage: 233 v
+2022-07-15 10:16:11,69 root INFO Grid power: -1540 w Voltage: 233 v
+2022-07-15 10:16:11,988 root INFO Grid power: -1540 w Voltage: 234 v
+2022-07-15 10:16:12,666 root INFO Grid power: -1544 w Voltage: 234 v
+2022-07-15 10:16:13,489 root INFO Grid power: -1540 w Voltage: 234 v
+2022-07-15 10:16:14,276 root INFO Grid power: -1539 w Voltage: 233 v
+2022-07-15 10:16:15,74 root INFO Grid power: -1539 w Voltage: 233 v
+2022-07-15 10:16:15,983 root INFO Grid power: -1539 w Voltage: 233 v
+2022-07-15 10:16:16,675 root INFO Grid power: -1544 w Voltage: 233 v
+2022-07-15 10:16:17,479 root INFO Grid power: -1541 w Voltage: 234 v
+2022-07-15 10:16:18,285 root INFO Grid power: -1548 w Voltage: 234 v
+2022-07-15 10:16:19,120 root INFO Grid power: -1548 w Voltage: 234 v
+2022-07-15 10:16:19,908 root INFO Grid power: -1542 w Voltage: 233 v
+2022-07-15 10:16:20,685 root INFO Grid power: -1555 w Voltage: 233 v
+2022-07-15 10:16:21,483 root INFO Grid power: -1561 w Voltage: 233 v
+2022-07-15 10:16:22,394 root INFO Grid power: -1551 w Voltage: 233 v
+2022-07-15 10:16:23,111 root INFO Grid power: -1551 w Voltage: 233 v
+2022-07-15 10:16:23,938 root INFO Grid power: -1553 w Voltage: 234 v
+2022-07-15 10:16:24,796 root INFO Grid power: -1557 w Voltage: 234 v
+2022-07-15 10:16:25,494 root INFO Grid power: -1560 w Voltage: 234 v
+2022-07-15 10:16:26,289 root INFO Grid power: -1568 w Voltage: 234 v
+2022-07-15 10:16:27,91 root INFO Grid power: -1568 w Voltage: 234 v
+2022-07-15 10:16:27,905 root INFO Grid power: -1557 w Voltage: 234 v
+2022-07-15 10:16:28,699 root INFO Grid power: -1561 w Voltage: 233 v
+2022-07-15 10:16:29,600 root INFO Grid power: -1557 w Voltage: 233 v
+2022-07-15 10:16:30,296 root INFO Grid power: -1522 w Voltage: 234 v
+2022-07-15 10:16:31,96 root INFO Grid power: -1522 w Voltage: 234 v
+2022-07-15 10:16:31,899 root INFO Grid power: -1562 w Voltage: 234 v
+2022-07-15 10:16:32,704 root INFO Grid power: -1566 w Voltage: 234 v
+2022-07-15 10:16:33,638 root INFO Grid power: -1567 w Voltage: 233 v
+2022-07-15 10:16:34,301 root INFO Grid power: -1551 w Voltage: 233 v
+2022-07-15 10:16:35,162 root INFO Grid power: -1551 w Voltage: 233 v
+2022-07-15 10:16:35,942 root INFO Grid power: -1562 w Voltage: 233 v
+2022-07-15 10:16:36,759 root INFO Grid power: -1567 w Voltage: 233 v
+2022-07-15 10:16:37,588 root INFO Grid power: -1559 w Voltage: 234 v
+2022-07-15 10:16:38,337 root INFO Grid power: -1559 w Voltage: 234 v
+2022-07-15 10:16:39,109 root INFO Grid power: -1559 w Voltage: 234 v
+2022-07-15 10:16:39,990 root INFO Grid power: -1542 w Voltage: 234 v
+2022-07-15 10:16:40,712 root INFO Grid power: -1556 w Voltage: 234 v
+2022-07-15 10:16:41,514 root INFO Grid power: -1559 w Voltage: 234 v
+2022-07-15 10:16:41,848 root INFO Start
+2022-07-15 10:16:41,861 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:42,327 root INFO Grid power: -1561 w Voltage: 234 v
+2022-07-15 10:16:43,141 root INFO Grid power: -1561 w Voltage: 234 v
+2022-07-15 10:16:43,581 root INFO Start
+2022-07-15 10:16:43,594 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:43,953 root INFO Grid power: -1556 w Voltage: 234 v
+2022-07-15 10:16:44,731 root INFO Grid power: -1550 w Voltage: 234 v
+2022-07-15 10:16:45,337 root INFO Start
+2022-07-15 10:16:45,355 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:45,570 root INFO Grid power: -1557 w Voltage: 234 v
+2022-07-15 10:16:46,429 root INFO Grid power: -1611 w Voltage: 234 v
+2022-07-15 10:16:47,89 root INFO Start
+2022-07-15 10:16:47,103 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:47,150 root INFO Grid power: -1611 w Voltage: 234 v
+2022-07-15 10:16:47,937 root INFO Grid power: -1614 w Voltage: 234 v
+2022-07-15 10:16:48,829 root INFO Start
+2022-07-15 10:16:48,843 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:48,905 root INFO Grid power: -1609 w Voltage: 233 v
+2022-07-15 10:16:49,527 root INFO Grid power: -1606 w Voltage: 234 v
+2022-07-15 10:16:50,328 root INFO Grid power: -1610 w Voltage: 234 v
+2022-07-15 10:16:50,582 root INFO Start
+2022-07-15 10:16:50,595 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:51,194 root INFO Grid power: -1610 w Voltage: 234 v
+2022-07-15 10:16:51,929 root INFO Grid power: -1611 w Voltage: 234 v
+2022-07-15 10:16:52,318 root INFO Start
+2022-07-15 10:16:52,332 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:52,747 root INFO Grid power: -1617 w Voltage: 234 v
+2022-07-15 10:16:53,537 root INFO Grid power: -1617 w Voltage: 234 v
+2022-07-15 10:16:54,58 root INFO Start
+2022-07-15 10:16:54,71 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:54,339 root INFO Grid power: -1596 w Voltage: 234 v
+2022-07-15 10:16:54,529 root INFO --- Start: sign of life ---
+2022-07-15 10:16:54,530 root INFO Last _update() call: 1657880214.3436313
+2022-07-15 10:16:54,530 root INFO Last '/Ac/Power': -1596.5
+2022-07-15 10:16:54,531 root INFO --- End: sign of life ---
+2022-07-15 10:16:55,181 root INFO Grid power: -1596 w Voltage: 234 v
+2022-07-15 10:16:55,817 root INFO Start
+2022-07-15 10:16:55,831 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:55,954 root INFO Grid power: -1607 w Voltage: 234 v
+2022-07-15 10:16:56,804 root INFO Grid power: -1611 w Voltage: 234 v
+2022-07-15 10:16:57,583 root INFO Grid power: -1608 w Voltage: 234 v
+2022-07-15 10:16:57,593 root INFO Start
+2022-07-15 10:16:57,608 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:58,351 root INFO Grid power: -1605 w Voltage: 233 v
+2022-07-15 10:16:59,178 root INFO Grid power: -1605 w Voltage: 233 v
+2022-07-15 10:16:59,343 root INFO Start
+2022-07-15 10:16:59,369 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:16:59,971 root INFO Grid power: -1594 w Voltage: 234 v
+2022-07-15 10:17:00,787 root INFO Grid power: -1603 w Voltage: 234 v
+2022-07-15 10:17:01,95 root INFO Start
+2022-07-15 10:17:01,110 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:01,551 root INFO Grid power: -1608 w Voltage: 234 v
+2022-07-15 10:17:02,352 root INFO Grid power: -1608 w Voltage: 234 v
+2022-07-15 10:17:02,836 root INFO Start
+2022-07-15 10:17:02,849 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:03,161 root INFO Grid power: -1608 w Voltage: 234 v
+2022-07-15 10:17:03,955 root INFO Grid power: -1606 w Voltage: 234 v
+2022-07-15 10:17:04,584 root INFO Start
+2022-07-15 10:17:04,599 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:04,774 root INFO Grid power: -1602 w Voltage: 234 v
+2022-07-15 10:17:05,558 root INFO Grid power: -1593 w Voltage: 234 v
+2022-07-15 10:17:06,317 root INFO Start
+2022-07-15 10:17:06,332 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:06,354 root INFO Grid power: -1607 w Voltage: 234 v
+2022-07-15 10:17:07,151 root INFO Grid power: -1607 w Voltage: 234 v
+2022-07-15 10:17:07,956 root INFO Grid power: -1609 w Voltage: 233 v
+2022-07-15 10:17:08,75 root INFO Start
+2022-07-15 10:17:08,92 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:08,810 root INFO Grid power: -1609 w Voltage: 233 v
+2022-07-15 10:17:09,578 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:17:09,845 root INFO Start
+2022-07-15 10:17:09,860 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:17:12,616 root INFO Start
+2022-07-15 10:17:12,641 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:17:12,650 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:17:13,509 root INFO Grid power: -1610 w Voltage: 233 v
+2022-07-15 10:17:14,297 root INFO Grid power: -1591 w Voltage: 233 v
+2022-07-15 10:17:15,243 root INFO Grid power: -1591 w Voltage: 233 v
+2022-07-15 10:17:15,899 root INFO Grid power: -1592 w Voltage: 233 v
+2022-07-15 10:17:16,703 root INFO Grid power: -1600 w Voltage: 233 v
+2022-07-15 10:17:17,581 root INFO Grid power: -1606 w Voltage: 233 v
+2022-07-15 10:17:18,320 root INFO Grid power: -1607 w Voltage: 233 v
+2022-07-15 10:17:19,103 root INFO Grid power: -1607 w Voltage: 233 v
+2022-07-15 10:17:19,904 root INFO Grid power: -1595 w Voltage: 234 v
+2022-07-15 10:17:20,708 root INFO Grid power: -1600 w Voltage: 233 v
+2022-07-15 10:17:21,512 root INFO Grid power: -1598 w Voltage: 233 v
+2022-07-15 10:17:22,313 root INFO Grid power: -1606 w Voltage: 233 v
+2022-07-15 10:17:23,175 root INFO Grid power: -1606 w Voltage: 233 v
+2022-07-15 10:17:23,991 root INFO Grid power: -1607 w Voltage: 234 v
+2022-07-15 10:17:24,711 root INFO Grid power: -1608 w Voltage: 233 v
+2022-07-15 10:17:25,581 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:17:26,370 root INFO Grid power: -1598 w Voltage: 233 v
+2022-07-15 10:17:27,187 root INFO Grid power: -1598 w Voltage: 233 v
+2022-07-15 10:17:28,35 root INFO Grid power: -1603 w Voltage: 234 v
+2022-07-15 10:17:28,717 root INFO Grid power: -1603 w Voltage: 234 v
+2022-07-15 10:17:29,522 root INFO Grid power: -1604 w Voltage: 234 v
+2022-07-15 10:17:30,345 root INFO Grid power: -1588 w Voltage: 234 v
+2022-07-15 10:17:31,135 root INFO Grid power: -1588 w Voltage: 234 v
+2022-07-15 10:17:32,11 root INFO Grid power: -1597 w Voltage: 234 v
+2022-07-15 10:17:32,825 root INFO Grid power: -1602 w Voltage: 234 v
+2022-07-15 10:17:33,552 root INFO Grid power: -1595 w Voltage: 234 v
+2022-07-15 10:17:34,360 root INFO Grid power: -1604 w Voltage: 234 v
+2022-07-15 10:17:35,126 root INFO Grid power: -1604 w Voltage: 234 v
+2022-07-15 10:17:36,48 root INFO Grid power: -1596 w Voltage: 234 v
+2022-07-15 10:17:36,776 root INFO Grid power: -1597 w Voltage: 233 v
+2022-07-15 10:17:37,581 root INFO Grid power: -1590 w Voltage: 234 v
+2022-07-15 10:17:38,555 root INFO Grid power: -1599 w Voltage: 234 v
+2022-07-15 10:17:39,132 root INFO Grid power: -1599 w Voltage: 234 v
+2022-07-15 10:17:40,121 root INFO Grid power: -1583 w Voltage: 233 v
+2022-07-15 10:17:40,877 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:17:41,537 root INFO Grid power: -1585 w Voltage: 233 v
+2022-07-15 10:17:42,357 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:17:43,140 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:17:43,956 root INFO Grid power: -1578 w Voltage: 233 v
+2022-07-15 10:17:44,781 root INFO Grid power: -1593 w Voltage: 233 v
+2022-07-15 10:17:45,569 root INFO Grid power: -1563 w Voltage: 233 v
+2022-07-15 10:17:46,374 root INFO Grid power: -1567 w Voltage: 233 v
+2022-07-15 10:17:47,165 root INFO Grid power: -1567 w Voltage: 233 v
+2022-07-15 10:17:47,968 root INFO Grid power: -1576 w Voltage: 233 v
+2022-07-15 10:17:48,779 root INFO Grid power: -1585 w Voltage: 233 v
+2022-07-15 10:17:49,549 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:17:50,349 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:17:51,221 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:17:51,952 root INFO Grid power: -1578 w Voltage: 233 v
+2022-07-15 10:17:52,771 root INFO Grid power: -1584 w Voltage: 233 v
+2022-07-15 10:17:53,683 root INFO Grid power: -1583 w Voltage: 233 v
+2022-07-15 10:17:54,404 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:17:55,245 root INFO Grid power: -1591 w Voltage: 233 v
+2022-07-15 10:17:56,18 root INFO Grid power: -1591 w Voltage: 233 v
+2022-07-15 10:17:56,793 root INFO Grid power: -1578 w Voltage: 233 v
+2022-07-15 10:17:57,634 root INFO Grid power: -1582 w Voltage: 233 v
+2022-07-15 10:17:58,379 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:17:59,164 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:17:59,971 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:18:00,945 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:18:01,569 root INFO Grid power: -1574 w Voltage: 233 v
+2022-07-15 10:18:02,437 root INFO Grid power: -1584 w Voltage: 233 v
+2022-07-15 10:18:03,175 root INFO Grid power: -1584 w Voltage: 233 v
+2022-07-15 10:18:03,977 root INFO Grid power: -1585 w Voltage: 233 v
+2022-07-15 10:18:04,783 root INFO Grid power: -1589 w Voltage: 233 v
+2022-07-15 10:18:05,592 root INFO Grid power: -1585 w Voltage: 233 v
+2022-07-15 10:18:06,467 root INFO Grid power: -1576 w Voltage: 233 v
+2022-07-15 10:18:07,192 root INFO Grid power: -1576 w Voltage: 233 v
+2022-07-15 10:18:07,982 root INFO Grid power: -1579 w Voltage: 233 v
+2022-07-15 10:18:08,863 root INFO Grid power: -1583 w Voltage: 233 v
+2022-07-15 10:18:09,602 root INFO Grid power: -1588 w Voltage: 233 v
+2022-07-15 10:18:10,387 root INFO Grid power: -1582 w Voltage: 233 v
+2022-07-15 10:18:11,341 root INFO Grid power: -1568 w Voltage: 233 v
+2022-07-15 10:18:11,985 root INFO Grid power: -1568 w Voltage: 233 v
+2022-07-15 10:18:12,652 root INFO --- Start: sign of life ---
+2022-07-15 10:18:12,652 root INFO Last _update() call: 1657880291.9861877
+2022-07-15 10:18:12,654 root INFO Last '/Ac/Power': -1568.3
+2022-07-15 10:18:12,655 root INFO --- End: sign of life ---
+2022-07-15 10:18:12,807 root INFO Grid power: -1576 w Voltage: 233 v
+2022-07-15 10:18:13,664 root INFO Grid power: -1585 w Voltage: 233 v
+2022-07-15 10:18:14,388 root INFO Grid power: -1586 w Voltage: 233 v
+2022-07-15 10:18:15,195 root INFO Grid power: -1586 w Voltage: 233 v
+2022-07-15 10:18:15,989 root INFO Grid power: -1586 w Voltage: 233 v
+2022-07-15 10:18:16,812 root INFO Grid power: -1568 w Voltage: 233 v
+2022-07-15 10:18:17,712 root INFO Grid power: -1571 w Voltage: 233 v
+2022-07-15 10:18:18,399 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:19,201 root INFO Grid power: -1579 w Voltage: 233 v
+2022-07-15 10:18:19,996 root INFO Grid power: -1579 w Voltage: 233 v
+2022-07-15 10:18:20,812 root INFO Grid power: -1582 w Voltage: 233 v
+2022-07-15 10:18:21,599 root INFO Grid power: -1567 w Voltage: 233 v
+2022-07-15 10:18:22,402 root INFO Grid power: -1572 w Voltage: 233 v
+2022-07-15 10:18:23,203 root INFO Grid power: -1574 w Voltage: 233 v
+2022-07-15 10:18:24,22 root INFO Grid power: -1574 w Voltage: 233 v
+2022-07-15 10:18:24,804 root INFO Grid power: -1579 w Voltage: 233 v
+2022-07-15 10:18:25,614 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:26,450 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:27,262 root INFO Grid power: -1565 w Voltage: 233 v
+2022-07-15 10:18:28,9 root INFO Grid power: -1565 w Voltage: 233 v
+2022-07-15 10:18:28,893 root INFO Grid power: -1576 w Voltage: 233 v
+2022-07-15 10:18:29,636 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:30,448 root INFO Grid power: -1579 w Voltage: 233 v
+2022-07-15 10:18:31,225 root INFO Grid power: -1558 w Voltage: 233 v
+2022-07-15 10:18:32,12 root INFO Grid power: -1558 w Voltage: 233 v
+2022-07-15 10:18:32,872 root INFO Grid power: -1574 w Voltage: 233 v
+2022-07-15 10:18:33,659 root INFO Grid power: -1575 w Voltage: 233 v
+2022-07-15 10:18:34,446 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:35,349 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:36,46 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:36,826 root INFO Grid power: -1570 w Voltage: 233 v
+2022-07-15 10:18:37,758 root INFO Grid power: -1570 w Voltage: 233 v
+2022-07-15 10:18:38,436 root INFO Grid power: -1572 w Voltage: 233 v
+2022-07-15 10:18:39,259 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:40,27 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:40,829 root INFO Grid power: -1581 w Voltage: 233 v
+2022-07-15 10:18:41,665 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:42,436 root INFO Grid power: -1564 w Voltage: 233 v
+2022-07-15 10:18:43,241 root INFO Grid power: -1575 w Voltage: 233 v
+2022-07-15 10:18:44,173 root INFO Grid power: -1575 w Voltage: 233 v
+2022-07-15 10:18:44,963 root INFO Grid power: -1580 w Voltage: 233 v
+2022-07-15 10:18:45,748 root INFO Grid power: -1600 w Voltage: 233 v
+2022-07-15 10:18:46,501 root INFO Grid power: -1667 w Voltage: 233 v
+2022-07-15 10:18:47,283 root INFO Grid power: -1676 w Voltage: 233 v
+2022-07-15 10:18:48,38 root INFO Grid power: -1676 w Voltage: 233 v
+2022-07-15 10:18:48,861 root INFO Grid power: -1689 w Voltage: 233 v
+2022-07-15 10:18:49,644 root INFO Grid power: -1693 w Voltage: 233 v
+2022-07-15 10:18:50,489 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:18:51,261 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:18:52,46 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:18:52,937 root INFO Grid power: -1680 w Voltage: 233 v
+2022-07-15 10:18:53,651 root INFO Grid power: -1693 w Voltage: 233 v
+2022-07-15 10:18:54,479 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:18:55,272 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:18:56,58 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:18:56,977 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:18:57,656 root INFO Grid power: -1690 w Voltage: 233 v
+2022-07-15 10:18:58,460 root INFO Grid power: -1694 w Voltage: 233 v
+2022-07-15 10:18:59,281 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:00,91 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:00,872 root INFO Grid power: -1705 w Voltage: 233 v
+2022-07-15 10:19:01,681 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:19:02,501 root INFO Grid power: -1691 w Voltage: 233 v
+2022-07-15 10:19:03,408 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:19:04,66 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:19:04,877 root INFO Grid power: -1710 w Voltage: 232 v
+2022-07-15 10:19:05,676 root INFO Grid power: -1708 w Voltage: 232 v
+2022-07-15 10:19:06,471 root INFO Grid power: -1707 w Voltage: 232 v
+2022-07-15 10:19:07,325 root INFO Grid power: -1707 w Voltage: 232 v
+2022-07-15 10:19:08,74 root INFO Grid power: -1689 w Voltage: 233 v
+2022-07-15 10:19:08,940 root INFO Grid power: -1700 w Voltage: 233 v
+2022-07-15 10:19:09,683 root INFO Grid power: -1706 w Voltage: 233 v
+2022-07-15 10:19:10,472 root INFO Grid power: -1714 w Voltage: 233 v
+2022-07-15 10:19:11,277 root INFO Grid power: -1711 w Voltage: 233 v
+2022-07-15 10:19:12,93 root INFO Grid power: -1711 w Voltage: 233 v
+2022-07-15 10:19:12,653 root INFO --- Start: sign of life ---
+2022-07-15 10:19:12,654 root INFO Last _update() call: 1657880352.0955596
+2022-07-15 10:19:12,655 root INFO Last '/Ac/Power': -1711.4
+2022-07-15 10:19:12,656 root INFO --- End: sign of life ---
+2022-07-15 10:19:12,883 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:19:13,680 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:14,525 root INFO Grid power: -1691 w Voltage: 233 v
+2022-07-15 10:19:15,309 root INFO Grid power: -1714 w Voltage: 233 v
+2022-07-15 10:19:16,102 root INFO Grid power: -1714 w Voltage: 233 v
+2022-07-15 10:19:17,3 root INFO Grid power: -1714 w Voltage: 233 v
+2022-07-15 10:19:17,710 root INFO Grid power: -1713 w Voltage: 233 v
+2022-07-15 10:19:18,509 root INFO Grid power: -1700 w Voltage: 233 v
+2022-07-15 10:19:19,297 root INFO Grid power: -1712 w Voltage: 233 v
+2022-07-15 10:19:20,85 root INFO Grid power: -1712 w Voltage: 233 v
+2022-07-15 10:19:20,989 root INFO Grid power: -1712 w Voltage: 233 v
+2022-07-15 10:19:21,697 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:19:22,494 root INFO Grid power: -1691 w Voltage: 233 v
+2022-07-15 10:19:23,444 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:24,153 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:24,961 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:19:25,852 root INFO Grid power: -1711 w Voltage: 233 v
+2022-07-15 10:19:26,506 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:19:27,335 root INFO Grid power: -1693 w Voltage: 233 v
+2022-07-15 10:19:28,125 root INFO Grid power: -1693 w Voltage: 233 v
+2022-07-15 10:19:28,937 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:29,831 root INFO Grid power: -1702 w Voltage: 233 v
+2022-07-15 10:19:30,502 root INFO Grid power: -1711 w Voltage: 233 v
+2022-07-15 10:19:31,330 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:19:32,179 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:19:32,940 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:33,730 root INFO Grid power: -1690 w Voltage: 233 v
+2022-07-15 10:19:34,534 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:19:35,309 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:19:36,141 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:19:36,909 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:37,718 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:19:38,581 root INFO Grid power: -1681 w Voltage: 233 v
+2022-07-15 10:19:39,320 root INFO Grid power: -1697 w Voltage: 233 v
+2022-07-15 10:19:40,120 root INFO Grid power: -1697 w Voltage: 233 v
+2022-07-15 10:19:40,916 root INFO Grid power: -1700 w Voltage: 233 v
+2022-07-15 10:19:41,720 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:42,528 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:19:43,330 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:19:44,120 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:19:45,86 root INFO Grid power: -1694 w Voltage: 233 v
+2022-07-15 10:19:45,728 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:46,603 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:19:47,403 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:48,134 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:48,928 root INFO Grid power: -1688 w Voltage: 233 v
+2022-07-15 10:19:49,741 root INFO Grid power: -1694 w Voltage: 233 v
+2022-07-15 10:19:50,530 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:19:51,386 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:52,153 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:19:52,986 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:19:53,829 root INFO Grid power: -1682 w Voltage: 233 v
+2022-07-15 10:19:54,539 root INFO Grid power: -1694 w Voltage: 233 v
+2022-07-15 10:19:55,339 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:56,140 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:57,5 root INFO Grid power: -1706 w Voltage: 233 v
+2022-07-15 10:19:57,773 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:19:58,543 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:19:59,343 root INFO Grid power: -1692 w Voltage: 233 v
+2022-07-15 10:20:00,279 root INFO Grid power: -1692 w Voltage: 233 v
+2022-07-15 10:20:01,9 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:20:01,798 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:02,550 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:20:03,413 root INFO Grid power: -1695 w Voltage: 233 v
+2022-07-15 10:20:04,165 root INFO Grid power: -1695 w Voltage: 233 v
+2022-07-15 10:20:04,990 root INFO Grid power: -1684 w Voltage: 233 v
+2022-07-15 10:20:05,774 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:20:06,668 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:07,358 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:20:08,157 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:20:08,962 root INFO Grid power: -1681 w Voltage: 233 v
+2022-07-15 10:20:09,787 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:20:10,560 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:20:11,386 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:12,167 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:12,654 root INFO --- Start: sign of life ---
+2022-07-15 10:20:12,655 root INFO Last _update() call: 1657880412.1689842
+2022-07-15 10:20:12,656 root INFO Last '/Ac/Power': -1700.8
+2022-07-15 10:20:12,656 root INFO --- End: sign of life ---
+2022-07-15 10:20:12,987 root INFO Grid power: -1696 w Voltage: 233 v
+2022-07-15 10:20:13,779 root INFO Grid power: -1686 w Voltage: 233 v
+2022-07-15 10:20:14,564 root INFO Grid power: -1694 w Voltage: 233 v
+2022-07-15 10:20:15,475 root INFO Grid power: -1695 w Voltage: 233 v
+2022-07-15 10:20:16,241 root INFO Grid power: -1700 w Voltage: 233 v
+2022-07-15 10:20:17,67 root INFO Grid power: -1700 w Voltage: 233 v
+2022-07-15 10:20:17,287 root INFO Start
+2022-07-15 10:20:17,299 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "dbus-fronius-smart-meter.py", line 236, in main
+    pvac_output = DbusFroniusMeterService(
+  File "dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:20:17,951 root INFO Grid power: -1699 w Voltage: 233 v
+2022-07-15 10:20:18,576 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:19,381 root INFO Grid power: -1683 w Voltage: 233 v
+2022-07-15 10:20:20,311 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:20:20,973 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:20:21,779 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:22,635 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:20:23,382 root INFO Grid power: -1703 w Voltage: 233 v
+2022-07-15 10:20:24,260 root INFO Grid power: -1682 w Voltage: 233 v
+2022-07-15 10:20:24,979 root INFO Grid power: -1682 w Voltage: 233 v
+2022-07-15 10:20:25,783 root INFO Grid power: -1697 w Voltage: 233 v
+2022-07-15 10:20:26,640 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:27,388 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:20:28,190 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:20:28,993 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:20:29,790 root INFO Grid power: -1704 w Voltage: 233 v
+2022-07-15 10:20:30,591 root INFO Grid power: -1707 w Voltage: 233 v
+2022-07-15 10:20:31,391 root INFO Grid power: -1709 w Voltage: 233 v
+2022-07-15 10:20:32,246 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:20:33,95 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:20:33,799 root INFO Grid power: -1723 w Voltage: 233 v
+2022-07-15 10:20:34,701 root INFO Grid power: -1731 w Voltage: 233 v
+2022-07-15 10:20:35,397 root INFO Grid power: -1710 w Voltage: 233 v
+2022-07-15 10:20:36,204 root INFO Grid power: -1713 w Voltage: 233 v
+2022-07-15 10:20:37,17 root INFO Grid power: -1713 w Voltage: 233 v
+2022-07-15 10:20:37,808 root INFO Grid power: -1711 w Voltage: 233 v
+2022-07-15 10:20:38,610 root INFO Grid power: -1717 w Voltage: 233 v
+2022-07-15 10:20:39,432 root INFO Grid power: -1698 w Voltage: 233 v
+2022-07-15 10:20:40,265 root INFO Grid power: -1705 w Voltage: 233 v
+2022-07-15 10:20:41,20 root INFO Grid power: -1705 w Voltage: 233 v
+2022-07-15 10:20:41,809 root INFO Grid power: -1713 w Voltage: 233 v
+2022-07-15 10:20:42,442 root INFO Start
+2022-07-15 10:20:42,456 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 236, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:20:42,612 root INFO Grid power: -1717 w Voltage: 233 v
+2022-07-15 10:20:43,509 root INFO Grid power: -1708 w Voltage: 233 v
+2022-07-15 10:20:44,211 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:45,13 root INFO Grid power: -1701 w Voltage: 233 v
+2022-07-15 10:20:45,959 root INFO Grid power: -1731 w Voltage: 233 v
+2022-07-15 10:20:46,631 root INFO Grid power: -1799 w Voltage: 233 v
+2022-07-15 10:20:47,487 root INFO Grid power: -1821 w Voltage: 233 v
+2022-07-15 10:20:48,327 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:20:49,98 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:20:50,33 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:20:50,647 root INFO Grid power: -1813 w Voltage: 233 v
+2022-07-15 10:20:51,422 root INFO Grid power: -1820 w Voltage: 233 v
+2022-07-15 10:20:52,226 root INFO Grid power: -1823 w Voltage: 233 v
+2022-07-15 10:20:53,40 root INFO Grid power: -1823 w Voltage: 233 v
+2022-07-15 10:20:53,850 root INFO Grid power: -1819 w Voltage: 233 v
+2022-07-15 10:20:54,638 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:20:55,448 root INFO Grid power: -1817 w Voltage: 233 v
+2022-07-15 10:20:56,333 root INFO Grid power: -1823 w Voltage: 233 v
+2022-07-15 10:20:57,69 root INFO Grid power: -1823 w Voltage: 233 v
+2022-07-15 10:20:57,840 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:20:58,658 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:20:59,479 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:00,277 root INFO Grid power: -1816 w Voltage: 233 v
+2022-07-15 10:21:01,42 root INFO Grid power: -1816 w Voltage: 233 v
+2022-07-15 10:21:01,882 root INFO Grid power: -1828 w Voltage: 233 v
+2022-07-15 10:21:02,641 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:03,529 root INFO Grid power: -1824 w Voltage: 233 v
+2022-07-15 10:21:04,331 root INFO Grid power: -1829 w Voltage: 233 v
+2022-07-15 10:21:05,259 root INFO Grid power: -1829 w Voltage: 233 v
+2022-07-15 10:21:05,913 root INFO Grid power: -1820 w Voltage: 233 v
+2022-07-15 10:21:06,695 root INFO Grid power: -1825 w Voltage: 233 v
+2022-07-15 10:21:07,488 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:08,268 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:09,63 root INFO Grid power: -1828 w Voltage: 233 v
+2022-07-15 10:21:09,884 root INFO Grid power: -1829 w Voltage: 233 v
+2022-07-15 10:21:10,652 root INFO Grid power: -1813 w Voltage: 233 v
+2022-07-15 10:21:11,488 root INFO Grid power: -1820 w Voltage: 233 v
+2022-07-15 10:21:12,280 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:12,655 root INFO --- Start: sign of life ---
+2022-07-15 10:21:12,656 root INFO Last _update() call: 1657880472.2832682
+2022-07-15 10:21:12,657 root INFO Last '/Ac/Power': -1830.2
+2022-07-15 10:21:12,657 root INFO --- End: sign of life ---
+2022-07-15 10:21:13,52 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:14,8 root INFO Grid power: -1829 w Voltage: 233 v
+2022-07-15 10:21:14,658 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:15,485 root INFO Grid power: -1810 w Voltage: 233 v
+2022-07-15 10:21:16,343 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:16,905 root INFO Start
+2022-07-15 10:21:16,922 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:21:17,65 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:17,976 root INFO Grid power: -1828 w Voltage: 233 v
+2022-07-15 10:21:18,669 root INFO Grid power: -1838 w Voltage: 233 v
+2022-07-15 10:21:19,461 root INFO Grid power: -1834 w Voltage: 233 v
+2022-07-15 10:21:20,383 root INFO Grid power: -1831 w Voltage: 233 v
+2022-07-15 10:21:21,66 root INFO Grid power: -1831 w Voltage: 233 v
+2022-07-15 10:21:21,930 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:22,668 root INFO Grid power: -1828 w Voltage: 233 v
+2022-07-15 10:21:23,488 root INFO Grid power: -1834 w Voltage: 233 v
+2022-07-15 10:21:24,311 root INFO Grid power: -1832 w Voltage: 233 v
+2022-07-15 10:21:25,72 root INFO Grid power: -1832 w Voltage: 233 v
+2022-07-15 10:21:25,883 root INFO Grid power: -1834 w Voltage: 233 v
+2022-07-15 10:21:26,784 root INFO Grid power: -1829 w Voltage: 233 v
+2022-07-15 10:21:27,478 root INFO Grid power: -1830 w Voltage: 233 v
+2022-07-15 10:21:28,313 root INFO Grid power: -1831 w Voltage: 233 v
+2022-07-15 10:21:29,82 root INFO Grid power: -1831 w Voltage: 233 v
+2022-07-15 10:21:29,950 root INFO Grid power: -1834 w Voltage: 233 v
+2022-07-15 10:21:30,708 root INFO Grid power: -1816 w Voltage: 233 v
+2022-07-15 10:21:31,510 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:21:32,347 root INFO Grid power: -1807 w Voltage: 233 v
+2022-07-15 10:21:33,315 root INFO Grid power: -1807 w Voltage: 233 v
+2022-07-15 10:21:33,931 root INFO Grid power: -1814 w Voltage: 233 v
+2022-07-15 10:21:34,686 root INFO Grid power: -1826 w Voltage: 233 v
+2022-07-15 10:21:35,491 root INFO Grid power: -1815 w Voltage: 233 v
+2022-07-15 10:21:36,294 root INFO Grid power: -1795 w Voltage: 233 v
+2022-07-15 10:21:37,109 root INFO Grid power: -1795 w Voltage: 233 v
+2022-07-15 10:21:37,899 root INFO Grid power: -1791 w Voltage: 233 v
+2022-07-15 10:21:38,693 root INFO Grid power: -1812 w Voltage: 233 v
+2022-07-15 10:21:39,574 root INFO Grid power: -1818 w Voltage: 233 v
+2022-07-15 10:21:40,293 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:21:41,99 root INFO Grid power: -1822 w Voltage: 233 v
+2022-07-15 10:21:41,987 root INFO Grid power: -1811 w Voltage: 233 v
+2022-07-15 10:21:42,708 root INFO Grid power: -1811 w Voltage: 233 v
+2022-07-15 10:21:43,528 root INFO Grid power: -1813 w Voltage: 233 v
+2022-07-15 10:21:43,567 root INFO Start
+2022-07-15 10:21:43,581 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:21:44,297 root INFO Grid power: -1815 w Voltage: 233 v
+2022-07-15 10:21:45,113 root INFO Grid power: -1815 w Voltage: 233 v
+2022-07-15 10:21:45,924 root INFO Grid power: -1812 w Voltage: 233 v
+2022-07-15 10:21:46,703 root INFO Grid power: -1796 w Voltage: 233 v
+2022-07-15 10:21:47,503 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:21:48,361 root INFO Grid power: -1809 w Voltage: 233 v
+2022-07-15 10:21:49,104 root INFO Grid power: -1809 w Voltage: 233 v
+2022-07-15 10:21:49,969 root INFO Grid power: -1815 w Voltage: 233 v
+2022-07-15 10:21:50,840 root INFO Grid power: -1810 w Voltage: 233 v
+2022-07-15 10:21:51,513 root INFO Grid power: -1814 w Voltage: 233 v
+2022-07-15 10:21:52,364 root INFO Grid power: -1809 w Voltage: 233 v
+2022-07-15 10:21:53,109 root INFO Grid power: -1809 w Voltage: 233 v
+2022-07-15 10:21:53,977 root INFO Grid power: -1815 w Voltage: 233 v
+2022-07-15 10:21:54,858 root INFO Grid power: -1817 w Voltage: 233 v
+2022-07-15 10:21:55,535 root INFO Grid power: -1814 w Voltage: 233 v
+2022-07-15 10:21:56,333 root INFO Grid power: -1805 w Voltage: 233 v
+2022-07-15 10:21:57,281 root INFO Grid power: -1805 w Voltage: 233 v
+2022-07-15 10:21:58,56 root INFO Grid power: -1807 w Voltage: 233 v
+2022-07-15 10:21:58,802 root INFO Grid power: -1814 w Voltage: 233 v
+2022-07-15 10:21:59,520 root INFO Grid power: -1814 w Voltage: 233 v
+2022-07-15 10:22:00,328 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:01,198 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:01,960 root INFO Grid power: -1790 w Voltage: 233 v
+2022-07-15 10:22:02,729 root INFO Grid power: -1799 w Voltage: 233 v
+2022-07-15 10:22:03,525 root INFO Grid power: -1801 w Voltage: 233 v
+2022-07-15 10:22:04,334 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:05,200 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:05,935 root INFO Grid power: -1805 w Voltage: 233 v
+2022-07-15 10:22:06,744 root INFO Grid power: -1798 w Voltage: 233 v
+2022-07-15 10:22:07,598 root INFO Grid power: -1801 w Voltage: 233 v
+2022-07-15 10:22:08,356 root INFO Grid power: -1800 w Voltage: 233 v
+2022-07-15 10:22:09,152 root INFO Grid power: -1800 w Voltage: 233 v
+2022-07-15 10:22:09,944 root INFO Grid power: -1804 w Voltage: 233 v
+2022-07-15 10:22:10,748 root INFO Grid power: -1803 w Voltage: 233 v
+2022-07-15 10:22:12,444 root INFO Start
+2022-07-15 10:22:12,463 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:22:12,475 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:22:13,333 root INFO Grid power: -1801 w Voltage: 233 v
+2022-07-15 10:22:13,575 root INFO Start
+2022-07-15 10:22:13,589 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 229, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 27, in __init__
+    self._dbusservice = VeDbusService("{}.http_{:02d}".format(servicename, deviceinstance))
+  File "/opt/victronenergy/dbus-systemcalc-py/ext/velib_python/vedbus.py", line 77, in __init__
+    self._dbusname = dbus.service.BusName(servicename, self._dbusconn, do_not_queue=True)
+  File "/usr/lib/python3.8/site-packages/dbus/service.py", line 144, in __new__
+    raise NameExistsException(name)
+dbus.exceptions.NameExistsException: Bus name already exists: com.victronenergy.grid.http_40
+2022-07-15 10:22:14,124 root INFO Grid power: -1801 w Voltage: 233 v
+2022-07-15 10:22:15,3 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:15,754 root INFO Grid power: -1808 w Voltage: 234 v
+2022-07-15 10:22:16,528 root INFO Grid power: -1809 w Voltage: 233 v
+2022-07-15 10:22:17,329 root INFO Grid power: -1799 w Voltage: 233 v
+2022-07-15 10:22:19,472 root INFO Start
+2022-07-15 10:22:19,491 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:22:19,501 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:22:20,439 root INFO Grid power: -1806 w Voltage: 233 v
+2022-07-15 10:22:21,308 root INFO Grid power: -1806 w Voltage: 233 v
+2022-07-15 10:22:22,100 root INFO Grid power: -1798 w Voltage: 233 v
+2022-07-15 10:22:22,770 root INFO Grid power: -1799 w Voltage: 233 v
+2022-07-15 10:22:23,557 root INFO Grid power: -1802 w Voltage: 233 v
+2022-07-15 10:22:24,360 root INFO Grid power: -1804 w Voltage: 233 v
+2022-07-15 10:22:25,155 root INFO Grid power: -1804 w Voltage: 233 v
+2022-07-15 10:22:26,18 root INFO Grid power: -1807 w Voltage: 233 v
+2022-07-15 10:22:26,776 root INFO Grid power: -1806 w Voltage: 233 v
+2022-07-15 10:22:27,698 root INFO Grid power: -1791 w Voltage: 233 v
+2022-07-15 10:22:28,367 root INFO Grid power: -1798 w Voltage: 233 v
+2022-07-15 10:22:29,157 root INFO Grid power: -1798 w Voltage: 233 v
+2022-07-15 10:22:29,967 root INFO Grid power: -1807 w Voltage: 233 v
+2022-07-15 10:22:30,783 root INFO Grid power: -1813 w Voltage: 233 v
+2022-07-15 10:22:40,281 root INFO Start
+2022-07-15 10:22:40,300 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:22:40,309 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:22:41,180 root INFO Grid power: -1808 w Voltage: 233 v
+2022-07-15 10:22:42,90 root INFO Grid power: -1802 w Voltage: 233 v
+2022-07-15 10:22:42,782 root INFO Grid power: -1798 w Voltage: 234 v
+2022-07-15 10:22:43,653 root INFO Grid power: -1804 w Voltage: 233 v
+2022-07-15 10:23:10,181 root INFO Start
+2022-07-15 10:23:10,200 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:23:10,340 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 236, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 51, in __init__
+    self._dbusservice.add_path('/Serial', self._getFronisSerial())
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 70, in _getFronisSerial
+    if not meter_data['Details']['Serial']:
+KeyError: 'Details'
+2022-07-15 10:24:39,776 root INFO Start
+2022-07-15 10:24:39,791 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:24:39,895 root CRITICAL Error at main
+Traceback (most recent call last):
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 236, in main
+    pvac_output = DbusFroniusMeterService(
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 51, in __init__
+    self._dbusservice.add_path('/Serial', self._getFronisSerial())
+  File "/data/dbus-fronius-smart-meter/dbus-fronius-smart-meter.py", line 73, in _getFronisSerial
+    serial = meter_data['Details']['Serial']
+KeyError: 'Details'
+2022-07-15 10:25:43,708 root INFO Start
+2022-07-15 10:25:43,726 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:25:43,850 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:25:44,712 root INFO Grid power: -1955 w Voltage: 233 v
+2022-07-15 10:25:45,603 root INFO Grid power: -1953 w Voltage: 233 v
+2022-07-15 10:25:46,336 root INFO Grid power: -1932 w Voltage: 233 v
+2022-07-15 10:25:47,154 root INFO Grid power: -1932 w Voltage: 233 v
+2022-07-15 10:25:47,906 root INFO Grid power: -1944 w Voltage: 233 v
+2022-07-15 10:25:48,706 root INFO Grid power: -1945 w Voltage: 233 v
+2022-07-15 10:25:49,705 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:25:50,308 root INFO Grid power: -1955 w Voltage: 233 v
+2022-07-15 10:25:51,104 root INFO Grid power: -1955 w Voltage: 233 v
+2022-07-15 10:25:51,910 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:25:52,711 root INFO Grid power: -1948 w Voltage: 233 v
+2022-07-15 10:25:53,588 root INFO Grid power: -1950 w Voltage: 233 v
+2022-07-15 10:25:54,310 root INFO Grid power: -1953 w Voltage: 233 v
+2022-07-15 10:25:55,112 root INFO Grid power: -1953 w Voltage: 233 v
+2022-07-15 10:25:55,986 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:25:56,716 root INFO Grid power: -1952 w Voltage: 233 v
+2022-07-15 10:25:57,516 root INFO Grid power: -1939 w Voltage: 233 v
+2022-07-15 10:25:58,318 root INFO Grid power: -1947 w Voltage: 233 v
+2022-07-15 10:25:59,136 root INFO Grid power: -1947 w Voltage: 233 v
+2022-07-15 10:26:00,5 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:26:00,729 root INFO Grid power: -1956 w Voltage: 233 v
+2022-07-15 10:26:01,523 root INFO Grid power: -1955 w Voltage: 233 v
+2022-07-15 10:26:02,392 root INFO Grid power: -1936 w Voltage: 233 v
+2022-07-15 10:26:03,124 root INFO Grid power: -1936 w Voltage: 233 v
+2022-07-15 10:26:03,926 root INFO Grid power: -1941 w Voltage: 234 v
+2022-07-15 10:26:04,727 root INFO Grid power: -1950 w Voltage: 233 v
+2022-07-15 10:26:05,543 root INFO Grid power: -1951 w Voltage: 233 v
+2022-07-15 10:26:06,389 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:07,128 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:07,956 root INFO Grid power: -1933 w Voltage: 234 v
+2022-07-15 10:26:08,911 root INFO Grid power: -1951 w Voltage: 234 v
+2022-07-15 10:26:09,557 root INFO Grid power: -1953 w Voltage: 234 v
+2022-07-15 10:26:10,435 root INFO Grid power: -1953 w Voltage: 234 v
+2022-07-15 10:26:11,182 root INFO Grid power: -1953 w Voltage: 234 v
+2022-07-15 10:26:11,938 root INFO Grid power: -1955 w Voltage: 234 v
+2022-07-15 10:26:12,899 root INFO Grid power: -1938 w Voltage: 234 v
+2022-07-15 10:26:13,551 root INFO Grid power: -1950 w Voltage: 233 v
+2022-07-15 10:26:14,382 root INFO Grid power: -1956 w Voltage: 233 v
+2022-07-15 10:26:15,285 root INFO Grid power: -1956 w Voltage: 233 v
+2022-07-15 10:26:15,945 root INFO Grid power: -1959 w Voltage: 233 v
+2022-07-15 10:26:16,811 root INFO Grid power: -1958 w Voltage: 233 v
+2022-07-15 10:26:17,658 root INFO Grid power: -1937 w Voltage: 234 v
+2022-07-15 10:26:18,352 root INFO Grid power: -1951 w Voltage: 233 v
+2022-07-15 10:26:19,227 root INFO Grid power: -1951 w Voltage: 233 v
+2022-07-15 10:26:19,954 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:20,941 root INFO Grid power: -1961 w Voltage: 233 v
+2022-07-15 10:26:21,620 root INFO Grid power: -1962 w Voltage: 233 v
+2022-07-15 10:26:22,357 root INFO Grid power: -1951 w Voltage: 233 v
+2022-07-15 10:26:23,214 root INFO Grid power: -1951 w Voltage: 233 v
+2022-07-15 10:26:24,45 root INFO Grid power: -1945 w Voltage: 233 v
+2022-07-15 10:26:24,820 root INFO Grid power: -1950 w Voltage: 233 v
+2022-07-15 10:26:25,615 root INFO Grid power: -1963 w Voltage: 233 v
+2022-07-15 10:26:26,399 root INFO Grid power: -1960 w Voltage: 233 v
+2022-07-15 10:26:27,214 root INFO Grid power: -1960 w Voltage: 233 v
+2022-07-15 10:26:28,70 root INFO Grid power: -1963 w Voltage: 233 v
+2022-07-15 10:26:28,818 root INFO Grid power: -1941 w Voltage: 233 v
+2022-07-15 10:26:29,637 root INFO Grid power: -1945 w Voltage: 233 v
+2022-07-15 10:26:30,443 root INFO Grid power: -1960 w Voltage: 233 v
+2022-07-15 10:26:31,176 root INFO Grid power: -1960 w Voltage: 233 v
+2022-07-15 10:26:31,972 root INFO Grid power: -1958 w Voltage: 233 v
+2022-07-15 10:26:32,891 root INFO Grid power: -1938 w Voltage: 233 v
+2022-07-15 10:26:33,571 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:26:34,376 root INFO Grid power: -1957 w Voltage: 233 v
+2022-07-15 10:26:35,180 root INFO Grid power: -1957 w Voltage: 233 v
+2022-07-15 10:26:35,978 root INFO Grid power: -1955 w Voltage: 233 v
+2022-07-15 10:26:36,780 root INFO Grid power: -1952 w Voltage: 233 v
+2022-07-15 10:26:37,615 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:38,381 root INFO Grid power: -1946 w Voltage: 233 v
+2022-07-15 10:26:39,187 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:40,8 root INFO Grid power: -1949 w Voltage: 233 v
+2022-07-15 10:26:40,928 root INFO Grid power: -1957 w Voltage: 233 v
+2022-07-15 10:26:41,587 root INFO Grid power: -1958 w Voltage: 233 v
+2022-07-15 10:26:42,395 root INFO Grid power: -1954 w Voltage: 233 v
+2022-07-15 10:26:43,430 root INFO Grid power: -1945 w Voltage: 233 v
+2022-07-15 10:26:43,852 root INFO --- Start: sign of life ---
+2022-07-15 10:26:43,852 root INFO Last _update() call: 1657880803.4334064
+2022-07-15 10:26:43,853 root INFO Last '/Ac/Power': -1944.8
+2022-07-15 10:26:43,853 root INFO --- End: sign of life ---
+2022-07-15 10:26:44,5 root INFO Grid power: -1945 w Voltage: 233 v
+2022-07-15 10:26:44,957 root INFO Grid power: -1948 w Voltage: 233 v
+2022-07-15 10:26:45,591 root INFO Grid power: -1974 w Voltage: 233 v
+2022-07-15 10:26:46,408 root INFO Grid power: -2022 w Voltage: 233 v
+2022-07-15 10:26:47,271 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:26:47,995 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:26:48,804 root INFO Grid power: -2043 w Voltage: 233 v
+2022-07-15 10:26:49,598 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:26:50,498 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:26:51,283 root INFO Grid power: -2071 w Voltage: 233 v
+2022-07-15 10:26:52,18 root INFO Grid power: -2071 w Voltage: 233 v
+2022-07-15 10:26:52,804 root INFO Grid power: -2072 w Voltage: 233 v
+2022-07-15 10:26:53,608 root INFO Grid power: -2049 w Voltage: 233 v
+2022-07-15 10:26:54,425 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:26:55,207 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:26:56,6 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:26:56,819 root INFO Grid power: -2072 w Voltage: 233 v
+2022-07-15 10:26:57,638 root INFO Grid power: -2070 w Voltage: 233 v
+2022-07-15 10:26:58,423 root INFO Grid power: -2058 w Voltage: 233 v
+2022-07-15 10:26:59,215 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:00,144 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:00,827 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:27:01,640 root INFO Grid power: -2071 w Voltage: 233 v
+2022-07-15 10:27:02,549 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:27:03,230 root INFO Grid power: -2050 w Voltage: 233 v
+2022-07-15 10:27:04,20 root INFO Grid power: -2050 w Voltage: 233 v
+2022-07-15 10:27:04,921 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:05,624 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:06,429 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:27:07,226 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:27:08,31 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:27:08,861 root INFO Grid power: -2048 w Voltage: 233 v
+2022-07-15 10:27:09,658 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:10,431 root INFO Grid power: -2061 w Voltage: 233 v
+2022-07-15 10:27:11,243 root INFO Grid power: -2065 w Voltage: 233 v
+2022-07-15 10:27:12,33 root INFO Grid power: -2065 w Voltage: 233 v
+2022-07-15 10:27:12,849 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:27:13,703 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:27:14,439 root INFO Grid power: -2058 w Voltage: 233 v
+2022-07-15 10:27:15,250 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:16,59 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:16,847 root INFO Grid power: -2072 w Voltage: 233 v
+2022-07-15 10:27:17,666 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:18,444 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:27:19,287 root INFO Grid power: -2049 w Voltage: 233 v
+2022-07-15 10:27:20,121 root INFO Grid power: -2049 w Voltage: 233 v
+2022-07-15 10:27:20,850 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:21,760 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:24,718 root INFO Start
+2022-07-15 10:27:24,732 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:27:24,893 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:27:25,761 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:27:26,659 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:27,346 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:27:28,148 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:27:29,0 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:27:29,802 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:27:30,549 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:31,431 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:32,150 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:32,973 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:33,769 root INFO Grid power: -2067 w Voltage: 233 v
+2022-07-15 10:27:34,553 root INFO Grid power: -2054 w Voltage: 233 v
+2022-07-15 10:27:35,459 root INFO Grid power: -2056 w Voltage: 233 v
+2022-07-15 10:27:36,202 root INFO Grid power: -2056 w Voltage: 233 v
+2022-07-15 10:27:36,962 root INFO Grid power: -2063 w Voltage: 233 v
+2022-07-15 10:27:37,918 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:38,567 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:39,363 root INFO Grid power: -2053 w Voltage: 233 v
+2022-07-15 10:27:40,166 root INFO Grid power: -2053 w Voltage: 233 v
+2022-07-15 10:27:40,964 root INFO Grid power: -2061 w Voltage: 233 v
+2022-07-15 10:27:41,779 root INFO Grid power: -2061 w Voltage: 233 v
+2022-07-15 10:27:42,569 root INFO Grid power: -2065 w Voltage: 233 v
+2022-07-15 10:27:43,366 root INFO Grid power: -2056 w Voltage: 233 v
+2022-07-15 10:27:44,301 root INFO Grid power: -2060 w Voltage: 233 v
+2022-07-15 10:27:44,966 root INFO Grid power: -2060 w Voltage: 233 v
+2022-07-15 10:27:45,787 root INFO Grid power: -2041 w Voltage: 233 v
+2022-07-15 10:27:46,638 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:27:47,371 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:48,177 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:49,45 root INFO Grid power: -2064 w Voltage: 233 v
+2022-07-15 10:27:49,778 root INFO Grid power: -2046 w Voltage: 233 v
+2022-07-15 10:27:50,645 root INFO Grid power: -2060 w Voltage: 233 v
+2022-07-15 10:27:51,378 root INFO Grid power: -2060 w Voltage: 233 v
+2022-07-15 10:27:52,189 root INFO Grid power: -2060 w Voltage: 233 v
+2022-07-15 10:27:53,0 root INFO Grid power: -2065 w Voltage: 233 v
+2022-07-15 10:27:53,899 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:27:54,583 root INFO Grid power: -2061 w Voltage: 233 v
+2022-07-15 10:27:55,503 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:27:56,246 root INFO Grid power: -2058 w Voltage: 233 v
+2022-07-15 10:27:57,108 root INFO Grid power: -2058 w Voltage: 233 v
+2022-07-15 10:27:57,923 root INFO Grid power: -2062 w Voltage: 233 v
+2022-07-15 10:27:58,593 root INFO Grid power: -2074 w Voltage: 233 v
+2022-07-15 10:27:59,458 root INFO Grid power: -2074 w Voltage: 233 v
+2022-07-15 10:28:00,221 root INFO Grid power: -2066 w Voltage: 233 v
+2022-07-15 10:28:02,921 root INFO Start
+2022-07-15 10:28:02,936 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:28:03,31 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:28:03,894 root INFO Grid power: -2094 w Voltage: 233 v
+2022-07-15 10:28:04,725 root INFO Grid power: -2089 w Voltage: 233 v
+2022-07-15 10:28:05,483 root INFO Grid power: -2065 w Voltage: 233 v
+2022-07-15 10:28:06,282 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:07,167 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:08,0 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:08,796 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:09,485 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:28:10,296 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:28:11,166 root INFO Grid power: -2057 w Voltage: 233 v
+2022-07-15 10:28:11,905 root INFO Grid power: -2074 w Voltage: 233 v
+2022-07-15 10:28:12,689 root INFO Grid power: -2074 w Voltage: 233 v
+2022-07-15 10:28:13,521 root INFO Grid power: -2079 w Voltage: 233 v
+2022-07-15 10:28:14,293 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:28:15,94 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:28:15,896 root INFO Grid power: -2071 w Voltage: 233 v
+2022-07-15 10:28:16,697 root INFO Grid power: -2077 w Voltage: 233 v
+2022-07-15 10:28:17,525 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:18,370 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:19,100 root INFO Grid power: -2081 w Voltage: 233 v
+2022-07-15 10:28:29,249 root INFO Start
+2022-07-15 10:28:29,268 root INFO registered ourselves on D-Bus as com.victronenergy.grid.http_40
+2022-07-15 10:28:29,384 root INFO Connected to dbus, and switching over to gobject.MainLoop() (= event based)
+2022-07-15 10:28:30,307 root INFO Grid power: -2082 w Voltage: 233 v
+2022-07-15 10:28:31,153 root INFO Grid power: -2082 w Voltage: 233 v
+2022-07-15 10:28:31,835 root INFO Grid power: -2080 w Voltage: 233 v
+2022-07-15 10:28:32,641 root INFO Grid power: -2079 w Voltage: 233 v
+2022-07-15 10:28:33,451 root INFO Grid power: -2043 w Voltage: 233 v
+2022-07-15 10:28:34,248 root INFO Grid power: -2090 w Voltage: 233 v
+2022-07-15 10:28:35,86 root INFO Grid power: -2090 w Voltage: 233 v
+2022-07-15 10:28:35,882 root INFO Grid power: -2091 w Voltage: 233 v
+2022-07-15 10:28:36,639 root INFO Grid power: -2078 w Voltage: 233 v
+2022-07-15 10:28:37,564 root INFO Grid power: -2083 w Voltage: 233 v
+2022-07-15 10:28:38,262 root INFO Grid power: -2092 w Voltage: 233 v
+2022-07-15 10:28:39,42 root INFO Grid power: -2092 w Voltage: 233 v
+2022-07-15 10:28:39,851 root INFO Grid power: -2090 w Voltage: 233 v
+2022-07-15 10:28:40,645 root INFO Grid power: -2068 w Voltage: 233 v
+2022-07-15 10:28:41,515 root INFO Grid power: -2085 w Voltage: 233 v
+2022-07-15 10:28:42,347 root INFO Grid power: -2087 w Voltage: 233 v
+2022-07-15 10:28:43,112 root INFO Grid power: -2087 w Voltage: 233 v
+2022-07-15 10:28:44,50 root INFO Grid power: -2076 w Voltage: 233 v
+2022-07-15 10:28:44,655 root INFO Grid power: -2084 w Voltage: 233 v
+2022-07-15 10:28:45,462 root INFO Grid power: -2098 w Voltage: 233 v
+2022-07-15 10:28:46,270 root INFO Grid power: -2146 w Voltage: 233 v
+2022-07-15 10:28:47,57 root INFO Grid power: -2146 w Voltage: 233 v
+2022-07-15 10:28:48,12 root INFO Grid power: -2185 w Voltage: 233 v
+2022-07-15 10:28:48,662 root INFO Grid power: -2172 w Voltage: 233 v
+2022-07-15 10:28:49,482 root INFO Grid power: -2157 w Voltage: 233 v
+2022-07-15 10:28:50,276 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:28:51,61 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:28:51,942 root INFO Grid power: -2186 w Voltage: 233 v
+2022-07-15 10:28:52,668 root INFO Grid power: -2191 w Voltage: 233 v
+2022-07-15 10:28:53,469 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:28:54,359 root INFO Grid power: -2203 w Voltage: 233 v
+2022-07-15 10:28:55,67 root INFO Grid power: -2203 w Voltage: 233 v
+2022-07-15 10:28:55,920 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:28:56,790 root INFO Grid power: -2180 w Voltage: 233 v
+2022-07-15 10:28:57,472 root INFO Grid power: -2200 w Voltage: 233 v
+2022-07-15 10:28:58,311 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:28:59,77 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:28:59,877 root INFO Grid power: -2207 w Voltage: 233 v
+2022-07-15 10:29:00,772 root INFO Grid power: -2201 w Voltage: 233 v
+2022-07-15 10:29:01,483 root INFO Grid power: -2192 w Voltage: 233 v
+2022-07-15 10:29:02,339 root INFO Grid power: -2201 w Voltage: 233 v
+2022-07-15 10:29:03,82 root INFO Grid power: -2201 w Voltage: 233 v
+2022-07-15 10:29:03,883 root INFO Grid power: -2198 w Voltage: 233 v
+2022-07-15 10:29:04,782 root INFO Grid power: -2205 w Voltage: 233 v
+2022-07-15 10:29:05,520 root INFO Grid power: -2208 w Voltage: 233 v
+2022-07-15 10:29:06,286 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:29:07,84 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:29:07,898 root INFO Grid power: -2200 w Voltage: 233 v
+2022-07-15 10:29:08,696 root INFO Grid power: -2207 w Voltage: 233 v
+2022-07-15 10:29:09,491 root INFO Grid power: -2211 w Voltage: 233 v
+2022-07-15 10:29:10,296 root INFO Grid power: -2208 w Voltage: 233 v
+2022-07-15 10:29:11,91 root INFO Grid power: -2208 w Voltage: 233 v
+2022-07-15 10:29:12,55 root INFO Grid power: -2180 w Voltage: 233 v
+2022-07-15 10:29:12,694 root INFO Grid power: -2198 w Voltage: 233 v
+2022-07-15 10:29:13,505 root INFO Grid power: -2194 w Voltage: 233 v
+2022-07-15 10:29:14,391 root INFO Grid power: -2203 w Voltage: 233 v
+2022-07-15 10:29:15,135 root INFO Grid power: -2203 w Voltage: 233 v
+2022-07-15 10:29:15,907 root INFO Grid power: -2206 w Voltage: 233 v
+2022-07-15 10:29:16,887 root INFO Grid power: -2204 w Voltage: 233 v
+2022-07-15 10:29:17,524 root INFO Grid power: -2198 w Voltage: 233 v
+2022-07-15 10:29:18,308 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:29:19,103 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:29:19,922 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:29:20,791 root INFO Grid power: -2203 w Voltage: 233 v
+2022-07-15 10:29:21,555 root INFO Grid power: -2204 w Voltage: 233 v
+2022-07-15 10:29:22,323 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:29:23,187 root INFO Grid power: -2193 w Voltage: 233 v
+2022-07-15 10:29:23,922 root INFO Grid power: -2199 w Voltage: 233 v
+2022-07-15 10:29:24,715 root INFO Grid power: -2202 w Voltage: 233 v
+2022-07-15 10:29:25,520 root INFO Grid power: -2184 w Voltage: 233 v
