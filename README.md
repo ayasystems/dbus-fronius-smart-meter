@@ -78,6 +78,10 @@ svc -u /service/dbus-fronius-smart-meter
 ```
 /data/dbus-fronius-smart-meter/restart.sh
 ```
+### View log file
+```
+cat /data/dbus-fronius-smart-meter/current.log
+```
 ### Change config.ini
 Within the project there is a file `/data/dbus-fronius-smart-meter/config.ini` - just change the values - most important is the host, username and password in section "ONPREMISE". More details below:
 
