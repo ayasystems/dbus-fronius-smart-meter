@@ -56,7 +56,7 @@ After that call the install.sh script.
 
 The following script should do everything for you:
 ```
-wget https://github.com/fabian-lauer/dbus-fronius-smart-meter/archive/refs/heads/main.zip
+wget https://github.com/ayasystems/dbus-fronius-smart-meter/archive/refs/heads/main.zip
 unzip main.zip "dbus-fronius-smart-meter-main/*" -d /data
 mv /data/dbus-fronius-smart-meter-main /data/dbus-fronius-smart-meter
 chmod a+x /data/dbus-fronius-smart-meter/install.sh
