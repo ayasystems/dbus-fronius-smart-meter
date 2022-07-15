@@ -76,6 +76,7 @@ Within the project there is a file `/data/dbus-fronius-smart-meter/config.ini` -
 | ONPREMISE  | MeterID  | Your meter ID
 | ONPREMISE  | intervalMs  | Interval time in ms to get data from Fronius
 
+![image](https://user-images.githubusercontent.com/7864168/179208083-80d7b07e-3985-4922-b5b8-bd56d65ba31c.png)
 
 
 ## Used documentation
