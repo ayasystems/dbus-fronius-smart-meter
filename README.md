@@ -42,7 +42,7 @@ So what is the script doing:
   A sample JSON file from Fronis Meter can be found [here](docs/GetMeterRealtimeData.json)
 - Serial is taken from the response as device serial
 - Paths are added to the DBus with default value 0 - including some settings like name, etc
-- After that a "loop" is started which pulls Fronis Meter data every 750ms from the REST-API and updates the values in the DBus
+- After that a "loop" is started which pulls Fronis Meter data every 800ms (can be modified in the settings file)  from the REST-API and updates the values in the DBus
 
 Thats it 😄
 
