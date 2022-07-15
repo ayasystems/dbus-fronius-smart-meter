@@ -64,7 +64,18 @@ chmod a+x /data/dbus-fronius-smart-meter/install.sh
 rm main.zip
 ```
 ⚠️ Check configuration after that - because service is already installed an running and with wrong connection data (host, username, pwd) you will spam the log-file
-
+### Stop service
+```
+svc -d /service/dbus-fronius-smart-meter
+```
+### Start service
+```
+svc -u /service/dbus-fronius-smart-meter
+```
+### Reload data
+```
+/data/dbus-fronius-smart-meter/restart.sh
+```
 ### Change config.ini
 Within the project there is a file `/data/dbus-fronius-smart-meter/config.ini` - just change the values - most important is the host, username and password in section "ONPREMISE". More details below:
 
