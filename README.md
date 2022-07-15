@@ -79,10 +79,8 @@ svc -u /service/dbus-fronius-smart-meter
 ### Change config.ini
 Within the project there is a file `/data/dbus-fronius-smart-meter/config.ini` - just change the values - most important is the host, username and password in section "ONPREMISE". More details below:
 
-Afther change the config file execute restart.sh to reload new settings
-```
-/data/dbus-fronius-smart-meter/restart.sh
-```
+Afther change the config file execute restart.sh to reload new settings [how to]https://github.com/ayasystems/dbus-fronius-smart-meter/blob/main/README.md#reload-data
+
 | Section  | Config vlaue | Explanation |
 | ------------- | ------------- | ------------- |
 | DEFAULT  | AccessType | Fixed value 'OnPremise' |
