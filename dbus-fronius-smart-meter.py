@@ -41,12 +41,12 @@ class DbusFroniusMeterService:
     #self._dbusservice.add_path('/ProductId', 45069) # found on https://www.sascha-curth.de/projekte/005_Color_Control_GX.html#experiment - should be an ET340 Engerie Meter
     #self._dbusservice.add_path('/DeviceType', 345) # found on https://www.sascha-curth.de/projekte/005_Color_Control_GX.html#experiment - should be an ET340 Engerie Meter
     self._dbusservice.add_path('/ProductName', productname)
-    self._dbusservice.add_path('/CustomName', productname)    
+    self._dbusservice.add_path('/CustomName', config['ONPREMISE']['CustomName'])    
     self._dbusservice.add_path('/Latency', None)    
     self._dbusservice.add_path('/FirmwareVersion', 0.1)
     self._dbusservice.add_path('/HardwareVersion', 0)
     self._dbusservice.add_path('/Connected', 1)
-    self._dbusservice.add_path('/Role', 'grid')
+    self._dbusservice.add_path('/Role', config['ONPREMISE']['Role'])
     self._dbusservice.add_path('/Position', 1) # normaly only needed for pvinverter
     self._dbusservice.add_path('/Serial', self._getFronisSerial())
     self._dbusservice.add_path('/UpdateIndex', 0)
@@ -213,7 +213,7 @@ def main():
   #configure logging
   logging.basicConfig(      format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s',
                             datefmt='%Y-%m-%d %H:%M:%S',
-                            level=logging.INFO,
+                            level=logging.ERROR,
                             handlers=[
                                 logging.FileHandler("%s/current.log" % (os.path.dirname(os.path.realpath(__file__)))),
                                 logging.StreamHandler()
