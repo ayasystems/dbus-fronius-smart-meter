@@ -1,6 +1,7 @@
 #!/usr/bin/env python
  
 # import normal packages
+# https://github.com/victronenergy/dbus_modbustcp/blob/master/attributes.csv
 import platform 
 import logging
 import sys
@@ -47,7 +48,7 @@ class DbusFroniusMeterService:
     self._dbusservice.add_path('/HardwareVersion', 0)
     self._dbusservice.add_path('/Connected', 1)
     self._dbusservice.add_path('/Role', config['ONPREMISE']['Role'])
-    self._dbusservice.add_path('/Position', 1) # normaly only needed for pvinverter
+    #self._dbusservice.add_path('/Position', 1) # normaly only needed for pvinverter
     self._dbusservice.add_path('/Serial', self._getFronisSerial())
     self._dbusservice.add_path('/UpdateIndex', 0)
  
@@ -154,12 +155,16 @@ class DbusFroniusMeterService:
        meter_voltage = meter_data['Body']['Data']['Voltage_AC_Phase_1']
        meter_model = meter_data['Body']['Data']['Details']['Model']
        if meter_model == 'Smart Meter TS 100A-1' or meter_model == 'Smart Meter 63A-1'  :  # set values for single phase meter
-        meter_data['Body']['Data']['Voltage_AC_Phase_2'] = 0
-        meter_data['Body']['Data']['Voltage_AC_Phase_3'] = 0
-        meter_data['Body']['Data']['Current_AC_Phase_2'] = 0
-        meter_data['Body']['Data']['Current_AC_Phase_3'] = 0
-        meter_data['Body']['Data']['PowerReal_P_Phase_2'] = 0
-        meter_data['Body']['Data']['PowerReal_P_Phase_3'] = 0
+        meter_data['Body']['Data']['Voltage_AC_Phase_2'] = None
+        meter_data['Body']['Data']['Voltage_AC_Phase_3'] = None
+        meter_data['Body']['Data']['Current_AC_Phase_2'] = None
+        meter_data['Body']['Data']['Current_AC_Phase_3'] = None
+        meter_data['Body']['Data']['PowerReal_P_Phase_2'] = None
+        meter_data['Body']['Data']['PowerReal_P_Phase_3'] = None
+        self._dbusservice['/Ac/L2/Energy/Forward'] = None
+        self._dbusservice['/Ac/L2/Energy/Reverse'] = None
+        self._dbusservice['/Ac/L3/Energy/Forward'] = None
+        self._dbusservice['/Ac/L3/Energy/Reverse'] = None       
        self._dbusservice['/Ac/Power'] = meter_consumption  # positive: consumption, negative: feed into grid 
        self._dbusservice['/Ac/Voltage'] = meter_voltage
        self._dbusservice['/Ac/Current'] = meter_data['Body']['Data']['Current_AC_Phase_1']
@@ -174,10 +179,7 @@ class DbusFroniusMeterService:
        self._dbusservice['/Ac/L3/Power'] = meter_data['Body']['Data']['PowerReal_P_Phase_3']
        self._dbusservice['/Ac/L1/Energy/Forward'] = float(meter_data['Body']['Data']['EnergyReal_WAC_Sum_Consumed'])/1000 
        self._dbusservice['/Ac/L1/Energy/Reverse'] = float(meter_data['Body']['Data']['EnergyReal_WAC_Sum_Produced'])/1000  
-       self._dbusservice['/Ac/L2/Energy/Forward'] = 0
-       self._dbusservice['/Ac/L2/Energy/Reverse'] = 0
-       self._dbusservice['/Ac/L3/Energy/Forward'] = 0
-       self._dbusservice['/Ac/L3/Energy/Reverse'] = 0
+
        self._dbusservice['/Ac/Energy/Forward'] = float(meter_data['Body']['Data']['EnergyReal_WAC_Sum_Consumed'])/1000
        self._dbusservice['/Ac/Energy/Reverse'] = float(meter_data['Body']['Data']['EnergyReal_WAC_Sum_Produced'])/1000
        logging.info("Grid power: {:.0f} w Voltage: {:.0f} v".format(meter_consumption,meter_voltage))
@@ -204,7 +206,7 @@ class DbusFroniusMeterService:
     return True
  
   def _handlechangedvalue(self, path, value):
-    logging.debug("someone else updated %s to %s" % (path, value))
+    logging.critical("someone else updated %s to %s" % (path, value))
     return True # accept the change
  
 
@@ -220,8 +222,6 @@ def main():
                             ])
  
   try:
-      logging.info("Start");
-  
       from dbus.mainloop.glib import DBusGMainLoop
       # Have a mainloop, so we can send/receive asynchronous calls to and from dbus
       DBusGMainLoop(set_as_default=True)
@@ -231,10 +231,22 @@ def main():
       _a = lambda p, v: (str(round(v, 1)) + ' A')
       _w = lambda p, v: (str(round(v, 1)) + ' W')
       _v = lambda p, v: (str(round(v, 1)) + ' V')   
-     
+      servicename = ""
+      if servicename == "":
+          config = configparser.ConfigParser()
+          config.read("%s/config.ini" % (os.path.dirname(os.path.realpath(__file__))))
+          if config['ONPREMISE']['Role'] == 'pvinverter':
+            servicename = 'com.victronenergy.pvinverter'
+          elif config['ONPREMISE']['Role'] == 'grid':
+            servicename = 'com.victronenergy.grid'
+          elif config['ONPREMISE']['Role'] == 'acload':
+            servicename = 'com.victronenergy.acload'
+          elif config['ONPREMISE']['Role'] == 'genset':
+            servicename = 'com.victronenergy.genset'
+      logging.error(servicename);
       #start our main-service
       pvac_output = DbusFroniusMeterService(
-        servicename='com.victronenergy.grid',
+        servicename=servicename,
         deviceinstance=40,
         paths={
           '/Ac/Energy/Forward': {'initial': 0, 'textformat': _kwh}, # energy bought from the grid
@@ -245,20 +257,20 @@ def main():
           '/Ac/Voltage': {'initial': 0, 'textformat': _v},
           
           '/Ac/L1/Voltage': {'initial': 0, 'textformat': _v},
-          '/Ac/L2/Voltage': {'initial': 0, 'textformat': _v},
-          '/Ac/L3/Voltage': {'initial': 0, 'textformat': _v},
+          '/Ac/L2/Voltage': {'initial': None, 'textformat': _v},
+          '/Ac/L3/Voltage': {'initial': None, 'textformat': _v},
           '/Ac/L1/Current': {'initial': 0, 'textformat': _a},
-          '/Ac/L2/Current': {'initial': 0, 'textformat': _a},
-          '/Ac/L3/Current': {'initial': 0, 'textformat': _a},
+          '/Ac/L2/Current': {'initial': None, 'textformat': _a},
+          '/Ac/L3/Current': {'initial': None, 'textformat': _a},
           '/Ac/L1/Power': {'initial': 0, 'textformat': _w},
-          '/Ac/L2/Power': {'initial': 0, 'textformat': _w},
-          '/Ac/L3/Power': {'initial': 0, 'textformat': _w},
+          '/Ac/L2/Power': {'initial': None, 'textformat': _w},
+          '/Ac/L3/Power': {'initial': None, 'textformat': _w},
           '/Ac/L1/Energy/Forward': {'initial': 0, 'textformat': _kwh},
-          '/Ac/L2/Energy/Forward': {'initial': 0, 'textformat': _kwh},
-          '/Ac/L3/Energy/Forward': {'initial': 0, 'textformat': _kwh},
+          '/Ac/L2/Energy/Forward': {'initial': None, 'textformat': _kwh},
+          '/Ac/L3/Energy/Forward': {'initial': None, 'textformat': _kwh},
           '/Ac/L1/Energy/Reverse': {'initial': 0, 'textformat': _kwh},
-          '/Ac/L2/Energy/Reverse': {'initial': 0, 'textformat': _kwh},
-          '/Ac/L3/Energy/Reverse': {'initial': 0, 'textformat': _kwh},
+          '/Ac/L2/Energy/Reverse': {'initial': None, 'textformat': _kwh},
+          '/Ac/L3/Energy/Reverse': {'initial': None, 'textformat': _kwh},
         })
      
       logging.info('Connected to dbus, and switching over to gobject.MainLoop() (= event based)')
